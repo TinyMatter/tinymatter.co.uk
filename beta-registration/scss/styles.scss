@@ -1411,6 +1411,14 @@ figure { position: relative; }
   background-color: rgba(255,255,255,.5);
   padding: 10px;
   border-radius: 10px;
+
+  a {
+      &:active,
+      &:focus,
+      &:hover {
+        color: #754FFF;
+      }
+    }
 }
 
 .has-icon-left {
