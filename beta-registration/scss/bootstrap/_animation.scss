@@ -1,0 +1,27 @@
+.fade {
+  opacity: 0;
+  transition: opacity .15s ease-in-out;
+
+  &.in {
+    opacity: 1;
+  }
+}
+
+.collapse {
+  display: none;
+
+  &.in {
+    display: block;
+  }
+  // tr&.in    { display: table-row; }
+  // tbody&.in { display: table-row-group; }
+}
+
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  transition-timing-function: ease-in-out;
+  transition-duration: .2s;
+  transition-property: height;
+}
