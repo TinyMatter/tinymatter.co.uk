@@ -1401,10 +1401,10 @@ figure { position: relative; }
   background: transparent;
 }
 
-.response-container {
-  background-color: rgba(255,255,255,.5);
-  padding: 10px;
-}
+// .response-container {
+//   background-color: rgba(255,255,255,.5);
+//   padding: 10px;
+// }
 
 .response {
   color: #fff;
@@ -1413,6 +1413,8 @@ figure { position: relative; }
   font-size: 1.5rem;
   text-align: center;
   margin: 0 10% 0 10%;
+  background-color: rgba(255,255,255,.5);
+  padding: 10px;
 }
 
 .has-icon-left {
