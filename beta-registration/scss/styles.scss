@@ -1413,10 +1413,11 @@ figure { position: relative; }
   border-radius: 10px;
 
   a {
-      &:active,
-      &:focus,
-      &:hover {
-        color: #754FFF;
+    color: #754FFF;
+
+    &:focus,
+    &:hover {
+      color: #4C2DBC;
       }
     }
 }
