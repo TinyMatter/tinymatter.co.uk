@@ -37,6 +37,8 @@ h3 {
 p {
   font-size: 1.6rem;
   margin: 0; }
+  p.big-p {
+    font-size: 2rem; }
 
 a {
   font-size: 1.6rem;
@@ -54,6 +56,8 @@ a {
     border-bottom-color: #f53170; }
     a.dark:hover {
       color: #f53170; }
+  a.big-p {
+    font-size: 2rem; }
 
 section {
   padding: 50px 50px;
@@ -234,6 +238,8 @@ h6 {
     top: -2px; }
   100% {
     top: 0; } }
+  .hero.short-vh {
+    height: 80vh; }
 
 .statement {
   width: 100%;
@@ -303,6 +309,10 @@ nav {
         color: #f53170; }
       nav ul li:last-child {
         margin-right: 0; }
+
+.contact p,
+.contact a {
+  font-size: 2rem; }
 
 .case-studies .work-box {
   display: -webkit-box;
@@ -478,10 +488,10 @@ nav {
         background: url("/img/logo-apple.svg") no-repeat center center;
         background-size: contain; }
       .stats ul li .bafta {
-        background: url("/img/logo-bafta.png") no-repeat center center;
+        background: url("/img/logo-bafta.svg") no-repeat center center;
         background-size: contain; }
       .stats ul li .acquisition {
-        background: url("/img/logo-codeschool.png") no-repeat center center;
+        background: url("/img/logo-codeschool.svg") no-repeat center center;
         background-size: contain; }
       .stats ul li .downloads {
         background: url("/img/logo-downloads.svg") no-repeat center center;
