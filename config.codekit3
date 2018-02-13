@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26261",
 "files": {
+	"\/about\/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/about\/index.html",
+		"oF": 0
+		},
 	"\/bower.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -800,6 +807,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/_contact.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_contact.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/_footer.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1239,6 +1259,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/background-team.png": {
+		"ft": 32768,
+		"iS": 3312351,
+		"oA": 0,
+		"oAP": "\/img\/background-team.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/device-iphone-qiktionary.png": {
 		"ft": 32768,
 		"iS": 1055001,
@@ -1387,6 +1418,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/img\/logo-codeschool.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo-codeschool.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/img\/logo-downloads.svg": {
 		"ft": 2097152,
@@ -1595,11 +1636,11 @@
 		"oAP": "\/sitemap.txt",
 		"oF": 0
 		},
-	"\/video\/disney-placeholder.mp4": {
+	"\/video\/hero-showcase.mp4": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 0,
-		"oAP": "\/video\/disney-placeholder.mp4",
+		"oAP": "\/video\/hero-showcase.mp4",
 		"oF": 0
 		}
 	},
