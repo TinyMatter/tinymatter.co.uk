@@ -1,0 +1,168 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: $brand-blue;
+  position: relative;
+  z-index: -3;
+}
+
+body {
+  font-size: 1.4rem;
+  font-family: $body-font;
+  background: $background;
+  color: $brand-blue;
+  margin: 0;
+  position: relative;
+  z-index: -2;
+  &.in-transition {
+    transition: transform 900ms ease-in-out;
+  }
+}
+
+h1 {
+  font-size: 6rem;
+  margin: 0;
+}
+
+h2 {
+  font-size: 4rem;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+h3 {
+  margin: 0;
+}
+
+p {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+a {
+  font-size: 1.6rem;
+  color: white;
+  border-bottom: 2px solid $brand-pink;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+  &:hover {
+    text-decoration: none;
+    color: $brand-pink;
+  }
+  &.dark {
+    color: $brand-blue;
+    border-bottom-color: $brand-pink;
+    &:hover {
+      color: $brand-pink;
+    }
+  }
+}
+
+section {
+  padding: 50px 50px;
+  background: $background;
+  &.dark {
+    background: $brand-blue;
+    color: white;
+  }
+  &.short {
+    padding: 100px 200px 100px 50px;
+    @include desktop {
+      padding: 100px 50px;
+    }
+  }
+}
+
+.container {
+  margin: auto 0;
+  width: 100%;
+
+  @include desktop {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  li {
+    font-size: 1.6rem;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $title-font;
+}
+
+.button-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  align-self: flex-start;
+  font-family: $title-font;
+  border: 3px solid $brand-pink;
+  border-radius: 2px;
+  padding: 14px 17px;
+  color: $brand-blue;
+  transition: all 150ms ease-in-out;
+  .arrow {
+    transition: all 150ms ease-in-out;
+    polygon {
+      transition: all 150ms ease-in-out;
+    }
+  }
+  &.light {
+    color: white;
+  }
+  &.left .arrow {
+    transform: rotate(90deg);
+    margin-right: 6px;
+  }
+  &.right .arrow {
+    transform: rotate(-90deg);
+    margin-left: 6px;
+  }
+  &.up .arrow {
+    transform: rotate(180deg);
+  }
+  &:hover {
+    background: $brand-pink;
+    color: white;
+    box-shadow: 0 0 10 10 rgba(0, 0, 0, 0.5);
+    transform: scale(1.05);
+    .arrow {
+      transform: scale(1.2);
+      polygon {
+        fill: white;
+      }
+    }
+    &.left .arrow {
+      transform: rotate(90deg) translateY(4px);
+    }
+    &.right .arrow {
+      transform: rotate(-90deg) translateY(4px);
+    }
+    &.up .arrow {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  margin-bottom: 20px;
+}

@@ -1,0 +1,11 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: darken($background, 2);
+  padding: 30px 30px;
+  color: $brand-blue;
+  p {
+    color: lighten($brand-blue, 40);
+  }
+}

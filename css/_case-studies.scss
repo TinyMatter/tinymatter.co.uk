@@ -1,0 +1,54 @@
+.case-studies {
+  .work-box {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding: 30px;
+    width: 100%;
+    color: white;
+    min-height: 360px;
+    margin: 50px 0;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.3);
+    border-radius: 2px;
+    border-bottom: none;
+    background-color: $brand-blue;
+    transition: transform 250ms ease-in-out, background 250ms ease-in-out;
+    &.case-study-1 {
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.5)),
+        url("/img/hero-footballsurvivor.png") no-repeat center center;
+      background-size: 100% auto;
+      margin-top: 0;
+    }
+    &.case-study-2 {
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.5)),
+        url("/img/hero-disney.png") no-repeat center center;
+      background-size: 100% auto;
+    }
+    &.case-study-3 {
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.5)),
+        url("/img/hero-qiktionary.png") no-repeat center center;
+      background-size: 100% auto;
+    }
+    &:hover {
+      transform: scale(1.01);
+      background-size: 110% auto;
+      background-position: 0% 10%;
+    }
+    h2 {
+      margin-bottom: 6px;
+    }
+    p {
+      margin-bottom: 20px;
+    }
+    &.mini {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+      min-height: 200px;
+      .button-box {
+        align-self: center;
+      }
+    }
+  }
+}

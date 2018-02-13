@@ -1,0 +1,33 @@
+.project-results {
+  padding-top: 150px;
+  .container {
+    display: flex;
+    .about {
+      display: flex;
+      flex: 1 0 50%;
+      flex-direction: column;
+      padding-right: 30px;
+      p {
+        font-size: 2.2rem;
+        line-height: 1.5;
+      }
+    }
+    .contributions {
+      display: flex;
+      flex: 1 0 50%;
+      flex-direction: column;
+      padding-left: 30px;
+
+      ul {
+        li {
+          padding: 10px 0;
+          border-bottom: 1px solid lighten($brand-blue, 65);
+          font-size: 1.9rem;
+          &:first-child {
+            border-top: 1px solid lighten($brand-blue, 65);
+          }
+        }
+      }
+    }
+  }
+}

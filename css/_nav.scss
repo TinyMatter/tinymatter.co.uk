@@ -1,0 +1,33 @@
+nav {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 30px 50px;
+  z-index: 101;
+  font-size: 1.6rem;
+  font-family: $title-font;
+
+  &.scroll {
+    box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
+  }
+  a {
+    border-bottom: none;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    li {
+      margin-right: 40px;
+      &.active a {
+        color: $brand-pink;
+      }
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+}

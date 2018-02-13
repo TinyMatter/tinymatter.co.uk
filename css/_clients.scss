@@ -1,0 +1,21 @@
+.clients {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  ul {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+    li {
+      display: flex;
+      flex: 0 0 calc(25% - 20px);
+      align-items: center;
+      justify-content: center;
+      min-height: 160px;
+      margin: 10px 10px 10px;
+      background: darken($brand-blue, 2);
+      border-radius: 2px;
+      height: 100px;
+    }
+  }
+}

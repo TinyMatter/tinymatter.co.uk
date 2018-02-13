@@ -1,0 +1,24 @@
+.project-statement {
+  height: 70vh;
+  position: relative;
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    position: relative;
+    top: -10%;
+  }
+  h2 {
+    width: 70vw;
+  }
+  p {
+    color: $brand-blue-light;
+  }
+  .project-image {
+    position: absolute;
+    right: 0;
+    bottom: -200px;
+    width: 60vw;
+  }
+}
