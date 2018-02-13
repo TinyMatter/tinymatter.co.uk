@@ -103,6 +103,34 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/case-studies\/disney-animated\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/case-studies\/disney-animated\/index.html",
+		"oF": 0
+		},
+	"\/case-studies\/disney-animated\/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/case-studies\/disney-animated\/index.html",
+		"oF": 0
+		},
+	"\/case-studies\/football-survivor\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/case-studies\/football-survivor\/index.html",
+		"oF": 0
+		},
+	"\/case-studies\/football-survivor\/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/case-studies\/football-survivor\/index.html",
+		"oF": 0
+		},
 	"\/case-studies\/index.html": {
 		"cB": 0,
 		"ft": 8192,
