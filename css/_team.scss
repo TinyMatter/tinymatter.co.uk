@@ -1,0 +1,47 @@
+.team {
+  ul {
+    display: flex;
+    margin-left: -10px;
+    margin-right: -10px;
+    li {
+      display: flex;
+      align-items: flex-start;
+      flex-direction: column;
+      justify-content: flex-end;
+      flex: 1 0 calc(25% - 20px);
+      background-color: darken($brand-blue, 10);
+      overflow: hidden;
+      margin: 10px 10px 10px;
+      border-radius: 2px;
+      overflow: hidden;
+      min-height: 250px;
+      padding: 20px;
+      &.james {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0.75) 100%),
+          url("/img/team-james.png") no-repeat center center;
+        background-size: cover;
+      }
+      &.eric {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0.75) 100%),
+          url("/img/team-eric.png") no-repeat center center;
+        background-size: cover;
+      }
+      &.dan {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0.75) 100%),
+          url("/img/team-dan.png") no-repeat center center;
+        background-size: cover;
+      }
+      &.matt {
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0.75) 100%),
+          url("/img/team-matt.png") no-repeat center center;
+        background-size: cover;
+      }
+      p {
+        &:first-child {
+          font-family: $title-font;
+          color: $brand-pink;
+        }
+      }
+    }
+  }
+}

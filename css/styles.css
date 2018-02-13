@@ -243,7 +243,7 @@ h6 {
 
 .statement {
   width: 100%;
-  height: 70vh; }
+  height: 50vh; }
   .statement .statement-text {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -333,12 +333,12 @@ nav {
   -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.3);
           box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.3);
   border-radius: 2px;
-  border-bottom: none;
+  border: 4px solid transparent;
   background-color: #2f3b40;
-  -webkit-transition: background 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
-  transition: background 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
-  transition: transform 250ms ease-in-out, background 250ms ease-in-out;
-  transition: transform 250ms ease-in-out, background 250ms ease-in-out, -webkit-transform 250ms ease-in-out; }
+  -webkit-transition: border 250ms ease-in-out, background 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  transition: border 250ms ease-in-out, background 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  transition: border 250ms ease-in-out, transform 250ms ease-in-out, background 250ms ease-in-out;
+  transition: border 250ms ease-in-out, transform 250ms ease-in-out, background 250ms ease-in-out, -webkit-transform 250ms ease-in-out; }
   .case-studies .work-box.case-study-1 {
     background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5))), url("/img/hero-footballsurvivor.png") no-repeat center center;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.5)), url("/img/hero-footballsurvivor.png") no-repeat center center;
@@ -355,8 +355,8 @@ nav {
   .case-studies .work-box:hover {
     -webkit-transform: scale(1.01);
             transform: scale(1.01);
-    background-size: 110% auto;
-    background-position: 0% 10%; }
+    background-position: 0% 10%;
+    border: 4px solid #f53170; }
   .case-studies .work-box h2 {
     margin-bottom: 6px; }
   .case-studies .work-box p {
@@ -434,11 +434,17 @@ nav {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      min-height: 160px;
+      height: 160px;
       margin: 10px 10px 10px;
       background: #2b363a;
       border-radius: 2px;
-      height: 100px; }
+      height: 100px;
+      opacity: 0.5;
+      padding: 20px; }
+      .clients ul li img {
+        height: 100%; }
+    .clients ul.light li {
+      background: #f4f4f4; }
 
 .stats {
   padding-top: 150px;
@@ -454,6 +460,7 @@ nav {
     margin-left: -10px;
     margin-right: -10px; }
     .stats ul li {
+      position: relative;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
@@ -467,7 +474,6 @@ nav {
       -webkit-box-direction: normal;
           -ms-flex-direction: column;
               flex-direction: column;
-      position: relative;
       min-height: 160px;
       margin: 10px 10px 10px;
       background: #f4f4f4;
@@ -504,6 +510,59 @@ nav {
       -webkit-box-flex: 0;
           -ms-flex: 0 0 calc(50% - 20px);
               flex: 0 0 calc(50% - 20px); }
+  .stats.outcome {
+    padding-top: 0px;
+    padding-bottom: 50px; }
+
+.team ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: -10px;
+  margin-right: -10px; }
+  .team ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 calc(25% - 20px);
+            flex: 1 0 calc(25% - 20px);
+    background-color: #192023;
+    overflow: hidden;
+    margin: 10px 10px 10px;
+    border-radius: 2px;
+    overflow: hidden;
+    min-height: 250px;
+    padding: 20px; }
+    .team ul li.james {
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, transparent), to(rgba(0, 0, 0, 0.75))), url("/img/team-james.png") no-repeat center center;
+      background: linear-gradient(to bottom, transparent 25%, rgba(0, 0, 0, 0.75) 100%), url("/img/team-james.png") no-repeat center center;
+      background-size: cover; }
+    .team ul li.eric {
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, transparent), to(rgba(0, 0, 0, 0.75))), url("/img/team-eric.png") no-repeat center center;
+      background: linear-gradient(to bottom, transparent 25%, rgba(0, 0, 0, 0.75) 100%), url("/img/team-eric.png") no-repeat center center;
+      background-size: cover; }
+    .team ul li.dan {
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, transparent), to(rgba(0, 0, 0, 0.75))), url("/img/team-dan.png") no-repeat center center;
+      background: linear-gradient(to bottom, transparent 25%, rgba(0, 0, 0, 0.75) 100%), url("/img/team-dan.png") no-repeat center center;
+      background-size: cover; }
+    .team ul li.matt {
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, transparent), to(rgba(0, 0, 0, 0.75))), url("/img/team-matt.png") no-repeat center center;
+      background: linear-gradient(to bottom, transparent 25%, rgba(0, 0, 0, 0.75) 100%), url("/img/team-matt.png") no-repeat center center;
+      background-size: cover; }
+    .team ul li p:first-child {
+      font-family: "Montserrat", "Helvetica Neue", sans-serif;
+      color: #f53170; }
 
 .project-statement {
   height: 70vh;

@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26261",
 "files": {
+	"\/about\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/about\/index.html",
+		"oF": 0
+		},
 	"\/about\/index.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -924,6 +931,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/_team.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_team.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/_testamonials.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1408,6 +1428,46 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/logo-bbc.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo-bbc.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/logo-bbcdark.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo-bbcdark.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/logo-bmw.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo-bmw.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/logo-bmwdark.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo-bmwdark.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/logo-codeschool.png": {
 		"ft": 32768,
 		"iS": 2947,
@@ -1429,6 +1489,26 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/logo-disney.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo-disney.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/logo-disneydark.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo-disneydark.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/logo-downloads.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1439,16 +1519,25 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/logo-itv.png": {
-		"ft": 32768,
-		"iS": 2993,
-		"oA": 0,
-		"oAP": "\/img\/logo-itv.png",
+	"\/img\/logo-itv.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo-itv.svg",
 		"oF": 0,
-		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/logo-itvdark.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo-itvdark.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/img\/logo.svg": {
 		"ft": 2097152,
@@ -1459,6 +1548,50 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/img\/team-dan.png": {
+		"ft": 32768,
+		"iS": 876742,
+		"oA": 0,
+		"oAP": "\/img\/team-dan.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/team-eric.png": {
+		"ft": 32768,
+		"iS": 66672,
+		"oA": 0,
+		"oAP": "\/img\/team-eric.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/team-james.png": {
+		"ft": 32768,
+		"iS": 66974,
+		"oA": 0,
+		"oAP": "\/img\/team-james.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/team-matt.png": {
+		"ft": 32768,
+		"iS": 98611,
+		"oA": 0,
+		"oAP": "\/img\/team-matt.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/includes\/_arrow.kit": {
 		"cB": 0,
@@ -1500,6 +1633,13 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/includes\/_case-studies.html",
+		"oF": 0
+		},
+	"\/includes\/_clients.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/includes\/_clients.html",
 		"oF": 0
 		},
 	"\/includes\/_contact.kit": {

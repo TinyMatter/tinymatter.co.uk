@@ -11,11 +11,19 @@
       flex: 0 0 calc(25% - 20px);
       align-items: center;
       justify-content: center;
-      min-height: 160px;
+      height: 160px;
       margin: 10px 10px 10px;
       background: darken($brand-blue, 2);
       border-radius: 2px;
       height: 100px;
+      opacity: 0.5;
+      padding: 20px;
+      img {
+        height: 100%;
+      }
+    }
+    &.light li {
+      background: darken($background, 2);
     }
   }
 }

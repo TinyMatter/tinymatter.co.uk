@@ -7,11 +7,11 @@
     margin-left: -10px;
     margin-right: -10px;
     li {
+      position: relative;
       display: flex;
       justify-content: center;
       align-items: flex-start;
       flex-direction: column;
-      position: relative;
       min-height: 160px;
       margin: 10px 10px 10px;
       background: darken($background, 2);
@@ -53,5 +53,9 @@
     &.grid-4 li {
       flex: 0 0 calc(50% - 20px);
     }
+  }
+  &.outcome {
+    padding-top: 0px;
+    padding-bottom: 50px;
   }
 }
