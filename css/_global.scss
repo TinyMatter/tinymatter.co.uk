@@ -40,6 +40,9 @@ h3 {
 p {
   font-size: 1.6rem;
   margin: 0;
+  &.big-p {
+    font-size: 2rem;
+  }
 }
 
 a {
@@ -59,6 +62,9 @@ a {
     &:hover {
       color: $brand-pink;
     }
+  }
+  &.big-p {
+    font-size: 2rem;
   }
 }
 
