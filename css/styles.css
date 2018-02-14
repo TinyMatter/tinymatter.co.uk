@@ -96,6 +96,18 @@ h5,
 h6 {
   font-family: "Montserrat", "Helvetica Neue", sans-serif; }
 
+.arrow-appear .arrow {
+  position: relative;
+  top: -5px;
+  -webkit-transform: rotate(-90deg) translateY(20px) scale(1);
+          transform: rotate(-90deg) translateY(20px) scale(1);
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out; }
+  .arrow-appear .arrow polygon {
+    -webkit-transition: fill 150ms ease-in-out;
+    transition: fill 150ms ease-in-out;
+    fill: rgba(245, 49, 112, 0); }
+
 .button-box {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
@@ -353,6 +365,11 @@ nav {
     -webkit-transform: scale(1.01);
             transform: scale(1.01);
     background-size: 105%; }
+    .case-studies .work-box:hover .arrow {
+      -webkit-transform: rotate(-90deg) translateY(0px) scale(1.5);
+              transform: rotate(-90deg) translateY(0px) scale(1.5); }
+      .case-studies .work-box:hover .arrow polygon {
+        fill: #f53170; }
   .case-studies .work-box .background-image {
     position: absolute;
     height: 150%;
@@ -381,13 +398,13 @@ nav {
               transform: scale(1.1) rotate(5deg); }
   .case-studies .work-box .project-tag {
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: "Montserrat", "Helvetica Neue", sans-serif;
     font-weight: 500;
     margin-top: 20px; }
     .case-studies .work-box .project-tag span {
-      padding: 4px 10px;
-      background: rgba(255, 255, 255, 0.25);
+      padding: 6px 12px;
+      background: rgba(0, 0, 0, 0.15);
       border-radius: 50px;
       margin-left: 4px; }
       .case-studies .work-box .project-tag span:first-child {
@@ -395,6 +412,8 @@ nav {
   .case-studies .work-box .copy {
     padding: 30px;
     z-index: 1; }
+    .case-studies .work-box .copy .button-box {
+      border: 0; }
   .case-studies .work-box h2 {
     margin-bottom: 6px; }
   .case-studies .work-box.mini {

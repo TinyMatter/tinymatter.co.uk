@@ -114,6 +114,19 @@ h6 {
   font-family: $title-font;
 }
 
+.arrow-appear {
+  .arrow {
+    position: relative;
+    top: -5px;
+    transform: rotate(-90deg) translateY(20px) scale(1);
+    transition: all 150ms ease-in-out;
+    polygon {
+      transition: fill 150ms ease-in-out;
+      fill: rgba($brand-pink, 0);
+    }
+  }
+}
+
 .button-box {
   display: inline-flex;
   align-items: center;
