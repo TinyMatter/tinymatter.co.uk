@@ -10,30 +10,31 @@
     margin: 50px 0;
     box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.3);
     border-radius: 2px;
-    border: 4px solid transparent;
+    border: 6px solid transparent;
     background-color: $brand-blue;
-    transition: border 250ms ease-in-out, transform 250ms ease-in-out, background 250ms ease-in-out;
+    transition: border 150ms ease-in-out, transform 250ms ease-in-out, background 250ms ease-in-out;
     &.case-study-1 {
       background: linear-gradient(to right, rgba(0, 0, 0, 0.5)),
         url("/img/hero-footballsurvivor.png") no-repeat center center;
-      background-size: 100% auto;
+      background-size: cover;
       margin-top: 0;
     }
     &.case-study-2 {
       background: linear-gradient(to right, rgba(0, 0, 0, 0.5)),
         url("/img/hero-disney.png") no-repeat center center;
-      background-size: 100% auto;
+      background-size: cover;
     }
     &.case-study-3 {
       background: linear-gradient(to right, rgba(0, 0, 0, 0.5)),
         url("/img/hero-qiktionary.png") no-repeat center center;
-      background-size: 100% auto;
+      background-size: cover;
     }
     &:hover {
       transform: scale(1.01);
-      // background-size: 110% auto;
-      background-position: 0% 10%;
-      border: 4px solid $brand-pink;
+      background-size: 105% auto;
+      // background-position: 0% 5%;
+      border: 6px solid $brand-pink;
+      // padding: calc(30px - 8px);
     }
     h2 {
       margin-bottom: 6px;

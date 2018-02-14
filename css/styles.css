@@ -2,6 +2,9 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box; }
 
+.hide {
+  display: none !important; }
+
 html {
   font-size: 62.5%;
   background-color: #2f3b40;
@@ -333,30 +336,30 @@ nav {
   -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.3);
           box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.3);
   border-radius: 2px;
-  border: 4px solid transparent;
+  border: 6px solid transparent;
   background-color: #2f3b40;
-  -webkit-transition: border 250ms ease-in-out, background 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
-  transition: border 250ms ease-in-out, background 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
-  transition: border 250ms ease-in-out, transform 250ms ease-in-out, background 250ms ease-in-out;
-  transition: border 250ms ease-in-out, transform 250ms ease-in-out, background 250ms ease-in-out, -webkit-transform 250ms ease-in-out; }
+  -webkit-transition: border 150ms ease-in-out, background 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  transition: border 150ms ease-in-out, background 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  transition: border 150ms ease-in-out, transform 250ms ease-in-out, background 250ms ease-in-out;
+  transition: border 150ms ease-in-out, transform 250ms ease-in-out, background 250ms ease-in-out, -webkit-transform 250ms ease-in-out; }
   .case-studies .work-box.case-study-1 {
     background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5))), url("/img/hero-footballsurvivor.png") no-repeat center center;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.5)), url("/img/hero-footballsurvivor.png") no-repeat center center;
-    background-size: 100% auto;
+    background-size: cover;
     margin-top: 0; }
   .case-studies .work-box.case-study-2 {
     background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5))), url("/img/hero-disney.png") no-repeat center center;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.5)), url("/img/hero-disney.png") no-repeat center center;
-    background-size: 100% auto; }
+    background-size: cover; }
   .case-studies .work-box.case-study-3 {
     background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5))), url("/img/hero-qiktionary.png") no-repeat center center;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.5)), url("/img/hero-qiktionary.png") no-repeat center center;
-    background-size: 100% auto; }
+    background-size: cover; }
   .case-studies .work-box:hover {
     -webkit-transform: scale(1.01);
             transform: scale(1.01);
-    background-position: 0% 10%;
-    border: 4px solid #f53170; }
+    background-size: 105% auto;
+    border: 6px solid #f53170; }
   .case-studies .work-box h2 {
     margin-bottom: 6px; }
   .case-studies .work-box p {
