@@ -437,15 +437,39 @@ nav {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
-      height: 160px;
+      height: 200px;
       margin: 10px 10px 10px;
-      background: #2b363a;
+      background: #acbcc2;
       border-radius: 2px;
-      height: 100px;
       opacity: 0.5;
-      padding: 20px; }
-      .clients ul li img {
+      padding: 50px; }
+      .clients ul li .client {
+        width: 100%;
         height: 100%; }
+      .clients ul li .itv {
+        background: url("/img/logo-itv.svg") no-repeat center center;
+        background-size: contain; }
+      .clients ul li .bbc {
+        background: url("/img/logo-bbc.svg") no-repeat center center;
+        background-size: contain; }
+      .clients ul li .bmw {
+        background: url("/img/logo-bmw.svg") no-repeat center center;
+        background-size: contain; }
+      .clients ul li .nike {
+        background: url("/img/logo-nike.svg") no-repeat center center;
+        background-size: contain; }
+      .clients ul li .disney {
+        background: url("/img/logo-disney.svg") no-repeat center center;
+        background-size: contain; }
+      .clients ul li .qi {
+        background: url("/img/logo-qi.svg") no-repeat center center;
+        background-size: contain; }
+      .clients ul li .pepsi {
+        background: url("/img/logo-pepsi.svg") no-repeat center center;
+        background-size: contain; }
+      .clients ul li .workingtitle {
+        background: url("/img/logo-workingtitle.png") no-repeat center center;
+        background-size: contain; }
     .clients ul.light li {
       background: #f4f4f4; }
 

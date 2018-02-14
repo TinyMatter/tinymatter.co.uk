@@ -1466,31 +1466,11 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/logo-bbcdark.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/logo-bbcdark.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/img\/logo-bmw.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/logo-bmw.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/logo-bmwdark.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/logo-bmwdark.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1527,16 +1507,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/logo-disneydark.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/logo-disneydark.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/img\/logo-downloads.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1557,15 +1527,46 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/logo-itvdark.svg": {
+	"\/img\/logo-nike.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/img\/logo-itvdark.svg",
+		"oAP": "\/img\/logo-nike.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/img\/logo-pepsi.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo-pepsi.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/logo-qi.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo-qi.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/logo-workingtitle.png": {
+		"ft": 32768,
+		"iS": 27922,
+		"oA": 0,
+		"oAP": "\/img\/logo-workingtitle.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/logo.svg": {
 		"ft": 2097152,
