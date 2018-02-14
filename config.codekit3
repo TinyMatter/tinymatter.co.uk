@@ -159,6 +159,20 @@
 		"oAP": "\/case-studies\/qiktionary\/index.html",
 		"oF": 0
 		},
+	"\/contact\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/contact\/index.html",
+		"oF": 0
+		},
+	"\/contact\/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/contact\/index.html",
+		"oF": 0
+		},
 	"\/css\/.sass-cache\/096668430bfb78ed8a2de7083a4749de97c4fc4b\/_convert-units.scssc": {
 		"cB": 0,
 		"ft": 8192,

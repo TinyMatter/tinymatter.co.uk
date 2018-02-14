@@ -28,11 +28,13 @@ body {
 
 h1 {
   font-size: 6rem;
+  font-weight: 700;
   margin: 0;
 }
 
 h2 {
   font-size: 4rem;
+  font-weight: 700;
   margin-top: 0;
   margin-bottom: 20px;
 }
@@ -46,6 +48,9 @@ p {
   margin: 0;
   &.big-p {
     font-size: 2rem;
+  }
+  &.bold {
+    font-weight: 700;
   }
 }
 
