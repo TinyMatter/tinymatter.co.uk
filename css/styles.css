@@ -642,6 +642,75 @@ nav {
       font-family: "Montserrat", "Helvetica Neue", sans-serif;
       color: #f53170; }
 
+.services {
+  padding-top: 0px;
+  padding-bottom: 100px; }
+  .services ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+    margin-left: -10px;
+    margin-right: -10px; }
+    .services ul li.services-list {
+      position: relative;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      margin: 10px 10px 10px;
+      background: #2b363a;
+      border-radius: 2px;
+      padding: 20px;
+      overflow: hidden; }
+      .services ul li.services-list h3 {
+        font-family: "Montserrat", "Helvetica Neue", sans-serif;
+        font-weight: 700;
+        font-size: 1.9rem;
+        margin-bottom: 20px; }
+      .services ul li.services-list ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        margin: 0; }
+        .services ul li.services-list ul li {
+          border-bottom: 1px solid #334046;
+          padding: 10px 0;
+          width: 100%;
+          color: #7998a6; }
+      .services ul li.services-list .icon-services {
+        position: absolute;
+        right: 10px;
+        height: 200px;
+        width: 200px;
+        opacity: 0.1; }
+      .services ul li.services-list .discover-design {
+        background: url("/img/icon-plan.svg") no-repeat center center;
+        background-size: contain; }
+      .services ul li.services-list .build-launch {
+        background: url("/img/icon-launch.svg") no-repeat center center;
+        background-size: contain; }
+      .services ul li.services-list .marketing-support {
+        background: url("/img/icon-design.svg") no-repeat center center;
+        background-size: contain; }
+    .services ul.grid-6 li {
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 calc(33.333% - 20px);
+              flex: 0 0 calc(33.333% - 20px); }
+
 .project-statement {
   height: 70vh;
   position: relative; }
