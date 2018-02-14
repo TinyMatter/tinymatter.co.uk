@@ -27,12 +27,12 @@
   <meta name="msapplication-TileColor" content="#2f3b40">
   <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#2f3b40">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700,800" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="/css/styles.css">
 </head>
 
-<body>
+<body class="">
 
 <nav data-0="background-color:rgba(47,59,64,0); padding: 30px 50px;" data-800="background-color:rgba(47,59,64,1); padding: 15px 50px;">
   <a href="/"><img src="/img/logo.svg" /></a>
@@ -135,7 +135,7 @@
 </footer>
 <script type="text/javascript" src="/js/main-min.js"></script>
 <script type="text/javascript">
-var s = skrollr.init();
+var s = skrollr.init({ forceHeight: false });
 if (s.isMobile()) {
   s.destroy();
 }

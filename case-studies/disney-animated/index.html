@@ -27,12 +27,12 @@
   <meta name="msapplication-TileColor" content="#2f3b40">
   <meta name="msapplication-TileImage" content="/favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#2f3b40">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:700,800" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700,800" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link rel="stylesheet" href="/css/styles.css">
 </head>
 
-<body>
+<body class="page-team">
 
 <nav data-0="background-color:rgba(47,59,64,0); padding: 30px 50px;" data-800="background-color:rgba(47,59,64,1); padding: 15px 50px;">
   <a href="/"><img src="/img/logo.svg" /></a>
@@ -71,7 +71,7 @@
     <h2>I’ve had the pleasure of working with Tiny Matter on the design and development of Qiktionary. Their game development expertise have been amazing and has resulted in us being featured a number of times by Apple and securing over 250,000 downloads.</h2>
     <p>Alex Johnston, CEO Four Letter Works</p>
   </div>
-  <img class="project-image" src="/img/device-iphone-qiktionary.png" data-1500="bottom:-200px;" data-1000="bottom:-100px;" />
+  <img class="project-image" src="/img/device-iphone-qiktionary.png" data-0="bottom:-100px;" data-top="bottom:-100px;" />
 </section>
 
 <section class="project-results">
@@ -121,21 +121,25 @@
 
 <section class="case-studies">
   <div class="container">
-    <div class="work-box case-study-1 mini">
-      <h2 class="project-title">Football Survivor</h2>
-      <a href="/case-studies/football-survivor/" class="button-box light right">View case study<svg class="arrow pulse" xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewBox="0 0 20 13">
-        <polygon fill="#F53170" fill-rule="evenodd" points="26.914 29.45 33.985 22.379 36.107 24.5 26.914 33.692 17.722 24.5 19.843 22.379" transform="translate(-17 -21)"/>
-      </svg>
-      </a>
-    </div>
+    <a href="/case-studies/football-survivor/" class="work-box mini">
+      <div class="background-image case-study-1"></div>
+      <div class="copy">
+        <h2 class="project-title">Football Survivor <svg class="arrow pulse" xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewBox="0 0 20 13">
+          <polygon fill="#F53170" fill-rule="evenodd" points="26.914 29.45 33.985 22.379 36.107 24.5 26.914 33.692 17.722 24.5 19.843 22.379" transform="translate(-17 -21)"/>
+        </svg>
+        </h2>
+      </div>
+    </a>
     
-    <div class="work-box case-study-3 mini">
-          <h2 class="project-title">Qiktionary</h2>
-          <a href="/case-studies/qiktionary/" class="button-box light right">View case study<svg class="arrow pulse" xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewBox="0 0 20 13">
-            <polygon fill="#F53170" fill-rule="evenodd" points="26.914 29.45 33.985 22.379 36.107 24.5 26.914 33.692 17.722 24.5 19.843 22.379" transform="translate(-17 -21)"/>
-          </svg>
-          </a>
-        </div>
+    <a href="/case-studies/qiktionary/" class="work-box mini">
+          <div class="background-image case-study-3"></div>
+          <div class="copy">
+            <h2 class="project-title">Qiktionary <svg class="arrow pulse" xmlns="http://www.w3.org/2000/svg" width="20" height="12" viewBox="0 0 20 13">
+              <polygon fill="#F53170" fill-rule="evenodd" points="26.914 29.45 33.985 22.379 36.107 24.5 26.914 33.692 17.722 24.5 19.843 22.379" transform="translate(-17 -21)"/>
+            </svg>
+            </h2>
+          </div>
+        </a>
         
   </div>
 </section>
@@ -154,7 +158,7 @@
 </footer>
 <script type="text/javascript" src="/js/main-min.js"></script>
 <script type="text/javascript">
-var s = skrollr.init();
+var s = skrollr.init({ forceHeight: false });
 if (s.isMobile()) {
   s.destroy();
 }

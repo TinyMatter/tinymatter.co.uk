@@ -170,6 +170,9 @@ h6 {
   width: 40px;
   margin-bottom: 20px; }
 
+.page-case-studies .case-studies {
+  padding-top: 100px; }
+
 .hero {
   position: relative;
   display: -webkit-box;
@@ -291,7 +294,8 @@ nav {
   padding: 30px 50px;
   z-index: 101;
   font-size: 1.6rem;
-  font-family: "Montserrat", "Helvetica Neue", sans-serif; }
+  font-family: "Montserrat", "Helvetica Neue", sans-serif;
+  font-weight: 700; }
   nav.scroll {
     -webkit-box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
             box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
@@ -329,42 +333,70 @@ nav {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 30px;
   width: 100%;
   color: white;
   min-height: 360px;
   margin: 50px 0;
   -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.3);
           box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.3);
-  border-radius: 2px;
-  border: 6px solid transparent;
+  border-radius: 4px;
+  border: 2px solid #2f3b40;
+  position: relative;
   background-color: #2f3b40;
-  -webkit-transition: border 150ms ease-in-out, background 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
-  transition: border 150ms ease-in-out, background 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
-  transition: border 150ms ease-in-out, transform 250ms ease-in-out, background 250ms ease-in-out;
-  transition: border 150ms ease-in-out, transform 250ms ease-in-out, background 250ms ease-in-out, -webkit-transform 250ms ease-in-out; }
-  .case-studies .work-box.case-study-1 {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5))), url("/img/hero-footballsurvivor.png") no-repeat center center;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5)), url("/img/hero-footballsurvivor.png") no-repeat center center;
-    background-size: cover;
-    margin-top: 0; }
-  .case-studies .work-box.case-study-2 {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5))), url("/img/hero-disney.png") no-repeat center center;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5)), url("/img/hero-disney.png") no-repeat center center;
-    background-size: cover; }
-  .case-studies .work-box.case-study-3 {
-    background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5))), url("/img/hero-qiktionary.png") no-repeat center center;
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.5)), url("/img/hero-qiktionary.png") no-repeat center center;
-    background-size: cover; }
+  overflow: hidden;
+  -webkit-transition: border 200ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  transition: border 200ms ease-in-out, -webkit-transform 250ms ease-in-out;
+  transition: border 200ms ease-in-out, transform 250ms ease-in-out;
+  transition: border 200ms ease-in-out, transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out; }
   .case-studies .work-box:hover {
+    border: 2px solid #f53170;
     -webkit-transform: scale(1.01);
             transform: scale(1.01);
-    background-size: 105% auto;
-    border: 6px solid #f53170; }
+    background-size: 105%; }
+  .case-studies .work-box .background-image {
+    position: absolute;
+    height: 150%;
+    width: 100%;
+    top: -25%;
+    background-color: pink;
+    -webkit-transition: -webkit-transform 5000ms ease-in-out;
+    transition: -webkit-transform 5000ms ease-in-out;
+    transition: transform 5000ms ease-in-out;
+    transition: transform 5000ms ease-in-out, -webkit-transform 5000ms ease-in-out; }
+    .case-studies .work-box .background-image.case-study-1 {
+      background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5))), url("/img/hero-footballsurvivor.png") no-repeat center center;
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.5)), url("/img/hero-footballsurvivor.png") no-repeat center center;
+      background-size: cover;
+      margin-top: 0; }
+    .case-studies .work-box .background-image.case-study-2 {
+      background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5))), url("/img/hero-disney.png") no-repeat center center;
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.5)), url("/img/hero-disney.png") no-repeat center center;
+      background-size: cover; }
+    .case-studies .work-box .background-image.case-study-3 {
+      background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5))), url("/img/hero-qiktionary-large.png") no-repeat center center;
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.5)), url("/img/hero-qiktionary-large.png") no-repeat center center;
+      background-size: cover; }
+    .case-studies .work-box .background-image:hover {
+      -webkit-transform: scale(1.1) rotate(5deg);
+              transform: scale(1.1) rotate(5deg); }
+  .case-studies .work-box .project-tag {
+    color: white;
+    font-size: 1.2rem;
+    font-family: "Montserrat", "Helvetica Neue", sans-serif;
+    font-weight: 500;
+    margin-top: 20px; }
+    .case-studies .work-box .project-tag span {
+      padding: 4px 10px;
+      background: rgba(255, 255, 255, 0.25);
+      border-radius: 50px;
+      margin-left: 4px; }
+      .case-studies .work-box .project-tag span:first-child {
+        margin-left: 0; }
+  .case-studies .work-box .copy {
+    padding: 30px;
+    z-index: 1; }
   .case-studies .work-box h2 {
     margin-bottom: 6px; }
-  .case-studies .work-box p {
-    margin-bottom: 20px; }
   .case-studies .work-box.mini {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -380,9 +412,8 @@ nav {
         -ms-flex-direction: row;
             flex-direction: row;
     min-height: 200px; }
-    .case-studies .work-box.mini .button-box {
-      -ms-flex-item-align: center;
-          align-self: center; }
+    .case-studies .work-box.mini h2 {
+      padding-left: 50px; }
 
 .testimonials {
   padding-top: 150px;
