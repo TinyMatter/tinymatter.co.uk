@@ -1,4 +1,8 @@
 .case-studies {
+  @include mobile {
+    padding: 0;
+    margin: 0;
+  }
   .work-box {
     display: flex;
     justify-content: flex-end;
@@ -24,6 +28,12 @@
           fill: $brand-pink;
         }
       }
+    }
+    @include mobile {
+      border: none;
+      margin: 0;
+      border-radius: 0;
+      box-shadow: none;
     }
     .background-image {
       position: absolute;
@@ -72,6 +82,9 @@
     .copy {
       padding: 30px;
       z-index: 1;
+      @include mobile {
+        padding: 20px;
+      }
       .button-box {
         border: 0;
       }
@@ -86,8 +99,16 @@
       align-items: center;
       flex-direction: row;
       min-height: 200px;
+      @include mobile {
+        justify-content: center;
+      }
       h2 {
         padding-left: 50px;
+        @include mobile {
+          text-align: center;
+          padding: 0;
+          width: 100%;
+        }
       }
     }
   }

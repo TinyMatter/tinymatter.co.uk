@@ -1,6 +1,10 @@
 .testimonials {
   padding-top: 150px;
   padding-bottom: 200px;
+  @include mobile {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
   .container {
     display: flex;
     align-items: center;

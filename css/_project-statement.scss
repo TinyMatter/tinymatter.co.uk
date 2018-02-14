@@ -1,6 +1,28 @@
+.statement {
+  width: 100%;
+  height: 50vh;
+  @include mobile {
+    padding: 100px 0;
+    height: auto;
+  }
+  .statement-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    @include mobile {
+      padding: 100px 0;
+    }
+  }
+}
+
 .project-statement {
   height: 70vh;
   position: relative;
+  @include mobile {
+    height: auto;
+    padding: 60px 20px !important;
+  }
   .container {
     display: flex;
     justify-content: center;
@@ -11,6 +33,9 @@
   }
   h2 {
     width: 70vw;
+    @include mobile {
+      width: 100%;
+    }
   }
   p {
     color: $brand-blue-light;
@@ -20,5 +45,9 @@
     right: 0;
     bottom: -200px;
     width: 60vw;
+    @include mobile {
+      bottom: -100px;
+      width: 70vw;
+    }
   }
 }

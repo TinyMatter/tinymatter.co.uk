@@ -6,6 +6,9 @@
   height: 100vh;
   background: rgba(0, 0, 0, 0.5);
   color: white;
+  @include mobile {
+    overflow: hidden;
+  }
   h1 {
     position: relative;
     color: white;
@@ -16,6 +19,10 @@
     font-family: $title-font;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
+    @include mobile {
+      margin-top: 40vh;
+      margin-bottom: 0;
+    }
   }
   .title-append {
     position: relative;
@@ -37,12 +44,19 @@
     transform: translateX(-50%) translateY(-50%);
     background: url("/img/hero-placeholder.png") no-repeat;
     background-size: cover;
+    @include mobile {
+      position: relative;
+    }
   }
   .scroll-down {
     position: absolute;
     bottom: 50px;
     left: 50px;
     height: 60px;
+    @include mobile {
+      bottom: 20px;
+      left: 20px;
+    }
     .pulse {
       animation: pulse 1s ease-in-out infinite;
       position: relative;

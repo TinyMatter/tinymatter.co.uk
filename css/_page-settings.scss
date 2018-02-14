@@ -1,5 +1,15 @@
 .page-case-studies {
   .case-studies {
     padding-top: 100px;
+    @include mobile {
+      padding-top: 60px;
+    }
+  }
+}
+
+.page-contact {
+  .contact {
+    padding-top: 20vh;
+    padding-bottom: 20vh;
   }
 }
