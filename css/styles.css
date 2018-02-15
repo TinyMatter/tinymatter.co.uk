@@ -230,6 +230,7 @@ h6 {
   color: white; }
   @media (max-width: 767px) {
     .hero {
+      height: 80vh;
       overflow: hidden; } }
   .hero h1 {
     position: relative;
@@ -425,7 +426,7 @@ nav {
   -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.3);
           box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.3);
   border-radius: 4px;
-  border: 2px solid #2f3b40;
+  border-bottom: 0;
   position: relative;
   background-color: #2f3b40;
   overflow: hidden;
@@ -434,7 +435,6 @@ nav {
   transition: border 200ms ease-in-out, transform 250ms ease-in-out;
   transition: border 200ms ease-in-out, transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out; }
   .case-studies .work-box:hover {
-    border: 2px solid #f53170;
     -webkit-transform: scale(1.01);
             transform: scale(1.01);
     background-size: 105%; }
@@ -484,9 +484,10 @@ nav {
     margin-top: 20px; }
     .case-studies .work-box .project-tag span {
       padding: 6px 12px;
-      background: rgba(0, 0, 0, 0.15);
-      border-radius: 50px;
-      margin-left: 4px; }
+      background: rgba(0, 0, 0, 0.3);
+      border-radius: 3px;
+      margin-left: 6px;
+      border: 1px solid rgba(255, 255, 255, 0.4); }
       .case-studies .work-box .project-tag span:first-child {
         margin-left: 0; }
   .case-studies .work-box .copy {
