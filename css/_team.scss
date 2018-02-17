@@ -1,13 +1,12 @@
 .team {
-  h2 {
-    @include narrow {
-      display: none;
-    }
+  @include narrow {
+    padding-top: 20px;
   }
   ul {
     display: flex;
     margin-left: -10px;
     margin-right: -10px;
+    margin-top: 0;
     @include narrow {
       flex-wrap: wrap;
     }
@@ -26,6 +25,7 @@
       padding: 20px;
       @include narrow {
         flex: 1 0 calc(50% - 20px);
+        padding: 10px 10px 8px 10px;
       }
       &.james {
         background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0.75) 100%),
@@ -52,6 +52,7 @@
           font-size: 1.2rem;
         }
         &:first-child {
+          font-size: 1.3rem;
           font-family: $title-font;
           font-weight: 700;
           color: $brand-pink;

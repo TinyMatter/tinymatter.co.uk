@@ -1,6 +1,6 @@
 .contact {
   @include narrow {
-    padding-top: 150px;
+    padding-top: 136px;
     padding-bottom: 100px;
   }
   p,
@@ -13,9 +13,8 @@
   min-height: 300px;
   .details {
     .map-pin {
-      height: 40px;
+      height: 35px;
       margin-bottom: 10px;
-      // opacity: 0.25;
     }
   }
   .map {

@@ -4,6 +4,9 @@
   @include narrow {
     padding-bottom: 20px;
   }
+  h2 {
+    margin-bottom: 10px;
+  }
   ul {
     display: flex;
     flex-flow: row wrap;
@@ -22,7 +25,8 @@
         font-family: $title-font;
         font-weight: 700;
         font-size: 1.9rem;
-        margin-bottom: 20px;
+        color: $brand-pink;
+        margin-bottom: 14px;
       }
       ul {
         display: flex;

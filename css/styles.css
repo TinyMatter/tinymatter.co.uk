@@ -102,7 +102,9 @@ section {
 
 ul {
   list-style: none;
-  padding-left: 0; }
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0; }
   ul li {
     font-size: 1.6rem; }
 
@@ -121,7 +123,7 @@ h6 {
           transform: rotate(-90deg) translateY(20px) scale(1);
   -webkit-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out; }
-  .arrow-appear .arrow polygon {
+  .arrow-appear .arrow path {
     -webkit-transition: fill 150ms ease-in-out;
     transition: fill 150ms ease-in-out;
     fill: rgba(245, 49, 112, 0); }
@@ -139,16 +141,15 @@ h6 {
   -ms-flex-item-align: start;
       align-self: flex-start;
   font-family: "Montserrat", "Helvetica Neue", sans-serif;
-  border: 3px solid #f53170;
-  border-radius: 2px;
-  padding: 14px 17px;
+  border-bottom: 3px solid #f53170;
+  padding: 14px 8px;
   color: #2f3b40;
   -webkit-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out; }
   .button-box .arrow {
     -webkit-transition: all 150ms ease-in-out;
     transition: all 150ms ease-in-out; }
-    .button-box .arrow polygon {
+    .button-box .arrow path {
       -webkit-transition: all 150ms ease-in-out;
       transition: all 150ms ease-in-out; }
   .button-box.light {
@@ -165,8 +166,6 @@ h6 {
     -webkit-transform: rotate(180deg);
             transform: rotate(180deg); }
   .button-box:hover {
-    background: #f53170;
-    color: white;
     -webkit-box-shadow: 0 0 10 10 rgba(0, 0, 0, 0.5);
             box-shadow: 0 0 10 10 rgba(0, 0, 0, 0.5);
     -webkit-transform: scale(1.05);
@@ -174,8 +173,6 @@ h6 {
     .button-box:hover .arrow {
       -webkit-transform: scale(1.2);
               transform: scale(1.2); }
-      .button-box:hover .arrow polygon {
-        fill: white; }
     .button-box:hover.left .arrow {
       -webkit-transform: rotate(90deg) translateY(4px);
               transform: rotate(90deg) translateY(4px); }
@@ -212,10 +209,22 @@ h6 {
   height: 100vh;
   background: rgba(0, 0, 0, 0.5);
   color: white; }
-  .hero h1 {
-    position: absolute;
-    color: white;
-    top: 15vh; }
+  .hero .center {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: 100%;
+    width: 100%; }
   .hero .title-prepend {
     position: relative;
     font-family: "Montserrat", "Helvetica Neue", sans-serif;
@@ -247,13 +256,12 @@ h6 {
         position: relative; } }
   .hero .scroll-down {
     position: absolute;
-    bottom: 50px;
-    left: 50px;
+    bottom: 0;
+    left: 0;
     height: 60px; }
     @media (max-width: 425px) {
       .hero .scroll-down {
-        bottom: 20px;
-        left: 20px; } }
+        bottom: 50px; } }
     .hero .scroll-down .pulse {
       -webkit-animation: pulse 1s ease-in-out infinite;
               animation: pulse 1s ease-in-out infinite;
@@ -385,7 +393,7 @@ nav {
 
 @media (max-width: 425px) {
   .contact {
-    padding-top: 150px;
+    padding-top: 136px;
     padding-bottom: 100px; } }
 
 .contact p,
@@ -395,7 +403,7 @@ nav {
 .address-container {
   min-height: 300px; }
   .address-container .details .map-pin {
-    height: 40px;
+    height: 35px;
     margin-bottom: 10px; }
   @media (max-width: 425px) {
     .address-container .map {
@@ -702,7 +710,7 @@ nav {
               -ms-flex: 0 0 calc(33.333% - 20px);
                   flex: 0 0 calc(33.333% - 20px);
           padding: 10px;
-          height: 100px;
+          height: 70px;
           background: #f9f9f9 !important;
           opacity: 1; } }
       .clients ul li .client {
@@ -822,15 +830,16 @@ nav {
     padding-bottom: 50px; }
 
 @media (max-width: 425px) {
-  .team h2 {
-    display: none; } }
+  .team {
+    padding-top: 20px; } }
 
 .team ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-left: -10px;
-  margin-right: -10px; }
+  margin-right: -10px;
+  margin-top: 0; }
   @media (max-width: 425px) {
     .team ul {
       -ms-flex-wrap: wrap;
@@ -863,7 +872,8 @@ nav {
       .team ul li {
         -webkit-box-flex: 1;
             -ms-flex: 1 0 calc(50% - 20px);
-                flex: 1 0 calc(50% - 20px); } }
+                flex: 1 0 calc(50% - 20px);
+        padding: 10px 10px 8px 10px; } }
     .team ul li.james {
       background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, transparent), to(rgba(0, 0, 0, 0.75))), url("/img/team-james.png") no-repeat center center;
       background: linear-gradient(to bottom, transparent 25%, rgba(0, 0, 0, 0.75) 100%), url("/img/team-james.png") no-repeat center center;
@@ -884,6 +894,7 @@ nav {
       .team ul li p {
         font-size: 1.2rem; } }
     .team ul li p:first-child {
+      font-size: 1.3rem;
       font-family: "Montserrat", "Helvetica Neue", sans-serif;
       font-weight: 700;
       color: #f53170; }
@@ -943,6 +954,8 @@ nav {
   @media (max-width: 425px) {
     .services {
       padding-bottom: 20px; } }
+  .services h2 {
+    margin-bottom: 10px; }
   .services ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -971,7 +984,8 @@ nav {
         font-family: "Montserrat", "Helvetica Neue", sans-serif;
         font-weight: 700;
         font-size: 1.9rem;
-        margin-bottom: 20px; }
+        color: #f53170;
+        margin-bottom: 14px; }
       .services ul li.services-list ul {
         display: -webkit-box;
         display: -ms-flexbox;

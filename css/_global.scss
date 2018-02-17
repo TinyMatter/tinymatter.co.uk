@@ -117,6 +117,8 @@ section {
 ul {
   list-style: none;
   padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
   li {
     font-size: 1.6rem;
   }
@@ -137,7 +139,7 @@ h6 {
     top: -5px;
     transform: rotate(-90deg) translateY(20px) scale(1);
     transition: all 150ms ease-in-out;
-    polygon {
+    path {
       transition: fill 150ms ease-in-out;
       fill: rgba($brand-pink, 0);
     }
@@ -150,14 +152,14 @@ h6 {
   justify-content: center;
   align-self: flex-start;
   font-family: $title-font;
-  border: 3px solid $brand-pink;
-  border-radius: 2px;
-  padding: 14px 17px;
+  border-bottom: 3px solid $brand-pink;
+  // border-radius: 2px;
+  padding: 14px 8px;
   color: $brand-blue;
   transition: all 150ms ease-in-out;
   .arrow {
     transition: all 150ms ease-in-out;
-    polygon {
+    path {
       transition: all 150ms ease-in-out;
     }
   }
@@ -176,14 +178,14 @@ h6 {
     transform: rotate(180deg);
   }
   &:hover {
-    background: $brand-pink;
-    color: white;
+    // background: $brand-pink;
+    // color: white;
     box-shadow: 0 0 10 10 rgba(0, 0, 0, 0.5);
     transform: scale(1.05);
     .arrow {
       transform: scale(1.2);
-      polygon {
-        fill: white;
+      path {
+        // fill: white;
       }
     }
     &.left .arrow {
