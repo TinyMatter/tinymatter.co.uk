@@ -921,6 +921,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/_join-us.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_join-us.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/_mixins.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1345,6 +1358,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/background-work.png": {
+		"ft": 32768,
+		"iS": 5681378,
+		"oA": 0,
+		"oAP": "\/img\/background-work.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/device-iphone-qiktionary.png": {
 		"ft": 32768,
 		"iS": 1055001,
@@ -1501,6 +1525,17 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/img\/jamie-redknapp.png": {
+		"ft": 32768,
+		"iS": 611025,
+		"oA": 0,
+		"oAP": "\/img\/jamie-redknapp.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
 		},
 	"\/img\/logo-apple.svg": {
 		"ft": 2097152,
@@ -1804,6 +1839,20 @@
 		"ft": 2048,
 		"oA": 1,
 		"oAP": "\/includes\/_nav.html",
+		"oF": 0
+		},
+	"\/includes\/_stats-disney.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/includes\/_stats-disney.html",
+		"oF": 0
+		},
+	"\/includes\/_stats-football-survivor.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 1,
+		"oAP": "\/includes\/_stats-football-survivor.html",
 		"oF": 0
 		},
 	"\/includes\/_stats-qiktionary.kit": {

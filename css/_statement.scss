@@ -24,22 +24,24 @@
 }
 
 .project-statement {
-  height: 70vh;
   position: relative;
+  height: 100vh;
   @include narrow {
     height: auto;
     padding: 60px 20px !important;
   }
-  .container {
+  .statement-text {
     display: flex;
     justify-content: center;
     flex-direction: column;
     height: 100%;
     position: relative;
     top: -10%;
+    z-index: 2;
   }
   h2 {
     width: 70vw;
+
     @include narrow {
       width: 100%;
     }
@@ -49,12 +51,28 @@
   }
   .project-image {
     position: absolute;
-    right: 0;
-    bottom: -200px;
-    width: 60vw;
-    @include narrow {
-      bottom: -100px;
-      width: 70vw;
+    &.jamie-redknapp {
+      right: -40px;
+      top: 0px;
+      width: 50vw;
+    }
+    &.qiktionary {
+      right: 0;
+      bottom: -200px;
+      width: 60vw;
+      @include narrow {
+        bottom: -100px;
+        width: 70vw;
+      }
+    }
+    &.disney {
+      right: -40px;
+      top: 0px;
+      width: 50vw;
     }
   }
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }

@@ -40,6 +40,7 @@
       background-color: $brand-blue;
       margin: 20px 0;
       color: white;
+      min-height: 400px;
     }
     .background-image {
       position: absolute;
@@ -166,6 +167,9 @@
       align-items: center;
       flex-direction: row;
       min-height: 200px;
+      &:first-child {
+        margin-top: 0;
+      }
       @include narrow {
         justify-content: center;
         color: white;

@@ -9,7 +9,7 @@ nav {
   font-size: 1.6rem;
   font-family: $title-font;
   font-weight: 700;
-  transition: all 150ms ease-in-out;
+  transition: all 150ms linear;
   @include narrow {
     padding: 15px 20px;
     background: $brand-blue;

@@ -60,7 +60,7 @@
     }
     &.grid-6 li {
       flex: 0 0 calc(33.333% - 20px);
-      @include narrow {
+      @include mobile {
         flex: 0 0 calc(50% - 20px);
       }
     }
