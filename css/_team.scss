@@ -7,7 +7,7 @@
     margin-left: -10px;
     margin-right: -10px;
     margin-top: 0;
-    @include narrow {
+    @include mobile {
       flex-wrap: wrap;
     }
     li {
@@ -23,7 +23,7 @@
       overflow: hidden;
       min-height: 250px;
       padding: 20px;
-      @include narrow {
+      @include mobile {
         flex: 1 0 calc(50% - 20px);
         padding: 10px 10px 8px 10px;
       }

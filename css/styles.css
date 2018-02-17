@@ -739,10 +739,14 @@ nav {
 .clients {
   padding-top: 150px;
   padding-bottom: 150px; }
+  @media (max-width: 768px) {
+    .clients {
+      padding-top: 100px;
+      padding-bottom: 50px; } }
   @media (max-width: 425px) {
     .clients {
       padding-top: 50px;
-      padding-bottom: 0px; } }
+      padding-bottom: 20px; } }
   .clients ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -768,10 +772,17 @@ nav {
               justify-content: center;
       height: 200px;
       margin: 10px 10px 10px;
-      background: #f1f1f1;
+      background: #ececec;
       border-radius: 2px;
       opacity: 0.5;
       padding: 50px; }
+      @media (max-width: 768px) {
+        .clients ul li {
+          -webkit-box-flex: 0;
+              -ms-flex: 0 0 calc(33.333% - 20px);
+                  flex: 0 0 calc(33.333% - 20px);
+          padding: 30px;
+          height: 100px; } }
       @media (max-width: 425px) {
         .clients ul li {
           -webkit-box-flex: 0;
@@ -914,7 +925,7 @@ nav {
   margin-left: -10px;
   margin-right: -10px;
   margin-top: 0; }
-  @media (max-width: 425px) {
+  @media (max-width: 768px) {
     .team ul {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; } }
@@ -942,7 +953,7 @@ nav {
     overflow: hidden;
     min-height: 250px;
     padding: 20px; }
-    @media (max-width: 425px) {
+    @media (max-width: 768px) {
       .team ul li {
         -webkit-box-flex: 1;
             -ms-flex: 1 0 calc(50% - 20px);
@@ -1096,7 +1107,7 @@ nav {
       -webkit-box-flex: 0;
           -ms-flex: 0 0 calc(33.333% - 20px);
               flex: 0 0 calc(33.333% - 20px); }
-      @media (max-width: 425px) {
+      @media (max-width: 768px) {
         .services ul.grid-6 li {
           -webkit-box-flex: 1;
               -ms-flex: 1 0 calc(100% - 20px);
@@ -1219,7 +1230,7 @@ nav {
       @media (max-width: 425px) {
         .project-results .container .about {
           padding-right: 0;
-          margin-bottom: 30px; } }
+          margin-bottom: 50px; } }
       .project-results .container .about p {
         font-size: 2.2rem;
         line-height: 1.5; }
@@ -1240,7 +1251,8 @@ nav {
       padding-left: 30px; }
       @media (max-width: 425px) {
         .project-results .container .contributions {
-          padding-left: 0; } }
+          padding-left: 0;
+          margin-bottom: 40px; } }
       .project-results .container .contributions ul li {
         padding: 10px 0;
         border-bottom: 1px solid #d8dfe2;
