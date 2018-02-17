@@ -29,6 +29,11 @@ h1 {
   @include narrow {
     font-size: 3rem;
   }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    position: relative;
+    top: -50px;
+    font-size: 5rem;
+  }
 }
 
 h2 {
@@ -93,12 +98,9 @@ section {
     color: white;
   }
   &.short {
-    padding: 100px 200px 100px 50px;
+    padding: 100px 250px 50px 50px;
     @include narrow {
       padding: 50px 20px;
-    }
-    @include desktop {
-      padding: 100px 50px;
     }
   }
 }
@@ -153,7 +155,6 @@ h6 {
   align-self: flex-start;
   font-family: $title-font;
   border-bottom: 3px solid $brand-pink;
-  // border-radius: 2px;
   padding: 14px 8px;
   color: $brand-blue;
   transition: all 150ms ease-in-out;
@@ -178,15 +179,10 @@ h6 {
     transform: rotate(180deg);
   }
   &:hover {
-    // background: $brand-pink;
-    // color: white;
     box-shadow: 0 0 10 10 rgba(0, 0, 0, 0.5);
     transform: scale(1.05);
     .arrow {
       transform: scale(1.2);
-      path {
-        // fill: white;
-      }
     }
     &.left .arrow {
       transform: rotate(90deg) translateY(4px);

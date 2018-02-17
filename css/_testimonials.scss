@@ -1,13 +1,19 @@
 .testimonials {
-  padding-top: 150px;
-  padding-bottom: 200px;
+  display: flex;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  min-height: 70vh;
   @include narrow {
-    padding-top: 50px;
+    min-height: 70vh;
+    padding-top: 70px;
     padding-bottom: 50px;
   }
   .container {
-    display: flex;
-    align-items: center;
+    position: relative;
+    // display: flex;
+    // align-items: center;
+    top: -20px;
     p {
       color: $brand-blue-light;
     }

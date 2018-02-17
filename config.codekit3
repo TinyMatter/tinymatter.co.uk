@@ -960,19 +960,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/css\/_project-statement.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/_project-statement.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/css\/_services.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -982,6 +969,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/_services.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/css\/_statement.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_statement.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1396,6 +1396,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/hero-poster.png": {
+		"ft": 32768,
+		"iS": 4839,
+		"oA": 0,
+		"oAP": "\/img\/hero-poster.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},

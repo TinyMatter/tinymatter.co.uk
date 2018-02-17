@@ -29,6 +29,11 @@ h1 {
   @media (max-width: 425px) {
     h1 {
       font-size: 3rem; } }
+  @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+    h1 {
+      position: relative;
+      top: -50px;
+      font-size: 5rem; } }
 
 h2 {
   font-size: 4rem;
@@ -82,13 +87,10 @@ section {
     background: #2f3b40;
     color: white; }
   section.short {
-    padding: 100px 200px 100px 50px; }
+    padding: 100px 250px 50px 50px; }
     @media (max-width: 425px) {
       section.short {
         padding: 50px 20px; } }
-    @media (min-width: 1024px) {
-      section.short {
-        padding: 100px 50px; } }
 
 .container {
   position: relative;
@@ -199,17 +201,13 @@ h6 {
 
 .hero {
   position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  overflow: hidden;
   width: 100%;
   height: 100vh;
   background: rgba(0, 0, 0, 0.5);
   color: white; }
   .hero .center {
+    position: absolute;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -225,18 +223,12 @@ h6 {
             flex-direction: column;
     height: 100%;
     width: 100%; }
-  .hero .title-prepend {
-    position: relative;
-    font-family: "Montserrat", "Helvetica Neue", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 0.1rem; }
-    @media (max-width: 425px) {
-      .hero .title-prepend {
-        margin-top: 40vh;
-        margin-bottom: 0; } }
-  .hero .title-append {
-    position: relative;
-    color: #f53170; }
+    .hero .center .title-prepend {
+      font-family: "Montserrat", "Helvetica Neue", sans-serif;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem; }
+    .hero .center .title-append {
+      color: #f53170; }
   .hero video#bgvideo,
   .hero img#bgimage {
     position: fixed;
@@ -250,7 +242,11 @@ h6 {
     -webkit-transform: translateX(-50%) translateY(-50%);
             transform: translateX(-50%) translateY(-50%);
     background: url("/img/hero-placeholder.png") no-repeat; }
-    @media (max-width: 425px) {
+    @media (min-width: 1024px) {
+      .hero video#bgvideo,
+      .hero img#bgimage {
+        position: relative; } }
+    @media (max-width: 991px) {
       .hero video#bgvideo,
       .hero img#bgimage {
         position: relative; } }
@@ -260,6 +256,9 @@ h6 {
     left: 0;
     height: 60px; }
     @media (max-width: 425px) {
+      .hero .scroll-down {
+        bottom: 50px; } }
+    @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
       .hero .scroll-down {
         bottom: 50px; } }
     .hero .scroll-down .pulse {
@@ -637,19 +636,23 @@ nav {
           width: 100%; } }
 
 .testimonials {
-  padding-top: 150px;
-  padding-bottom: 200px; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  min-height: 70vh; }
   @media (max-width: 425px) {
     .testimonials {
-      padding-top: 50px;
+      min-height: 70vh;
+      padding-top: 70px;
       padding-bottom: 50px; } }
   .testimonials .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
+    position: relative;
+    top: -20px; }
     .testimonials .container p {
       color: #7998a6; }
   .testimonials .nav-buttons {
@@ -1029,13 +1032,20 @@ nav {
                   flex: 1 0 calc(100% - 20px); } }
 
 .statement {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   width: 100%;
-  height: 50vh; }
+  min-height: 70vh; }
   @media (max-width: 425px) {
     .statement {
       padding: 100px 0;
       height: auto; } }
   .statement .statement-text {
+    position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1046,7 +1056,10 @@ nav {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    height: 100%; }
+    height: 100%;
+    top: -20px; }
+    .statement .statement-text p {
+      color: #7998a6; }
     @media (max-width: 425px) {
       .statement .statement-text {
         padding: 100px 0; } }
