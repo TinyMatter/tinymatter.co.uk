@@ -12,11 +12,11 @@ nav {
   transition: all 150ms ease-in-out;
   @include mobile {
     padding: 8px 16px;
+    background: $brand-blue;
   }
 
   &.scroll {
     box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
-    border-bottom: 1px solid darken($brand-blue, 10);
     @include mobile {
       background: $brand-blue;
     }

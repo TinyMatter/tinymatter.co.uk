@@ -1,7 +1,8 @@
 .case-studies {
   @include mobile {
     padding: 0;
-    margin: 0;
+    margin: 0 20px;
+    background: $background !important;
   }
   .work-box {
     display: flex;
@@ -21,18 +22,24 @@
     &:hover {
       transform: scale(1.01);
       background-size: 105%;
+      @include mobile {
+        transform: scale(1);
+        background-size: 100%;
+      }
       .arrow {
         transform: rotate(-90deg) translateY(0px) scale(1.5);
+        @include mobile {
+          display: none;
+        }
         polygon {
           fill: $brand-pink;
         }
       }
     }
     @include mobile {
-      border: none;
-      margin: 0;
-      border-radius: 0;
-      box-shadow: none;
+      background-color: white;
+      margin: 20px 0;
+      color: $brand-blue;
     }
     .background-image {
       position: absolute;
@@ -41,6 +48,10 @@
       top: -25%;
       background-color: pink;
       transition: transform 5000ms ease-in-out;
+      @include mobile {
+        height: 50%;
+        top: 0;
+      }
 
       &.case-study-1 {
         background: linear-gradient(to right, rgba(0, 0, 0, 0.5)),
@@ -60,6 +71,9 @@
       }
       &:hover {
         transform: scale(1.1) rotate(5deg);
+        @include mobile {
+          transform: scale(1) rotate(0deg);
+        }
       }
     }
     .project-tag {
@@ -68,12 +82,14 @@
       font-family: $title-font;
       font-weight: 500;
       margin-top: 20px;
+      @include mobile {
+        display: none;
+      }
       span {
         padding: 6px 12px;
         background: rgba(black, 0.3);
         border-radius: 3px;
         margin-left: 6px;
-        border: 1px solid rgba(white, 0.4);
         &:first-child {
           margin-left: 0;
         }
@@ -83,15 +99,36 @@
       padding: 30px;
       z-index: 1;
       @include mobile {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
         padding: 20px;
+        text-align: center;
       }
       .button-box {
         border: 0;
+      }
+      .view-link {
+        display: none;
+        @include mobile {
+          display: inline-flex;
+          padding-top: 10px;
+          border-bottom: 1px solid $brand-pink;
+        }
       }
     }
 
     h2 {
       margin-bottom: 6px;
+      @include mobile {
+        font-size: 2.8rem;
+      }
+      span {
+        @include mobile {
+          display: none;
+        }
+      }
     }
     &.mini {
       display: flex;
@@ -101,6 +138,14 @@
       min-height: 200px;
       @include mobile {
         justify-content: center;
+        color: white;
+      }
+      .background-image {
+        @include mobile {
+          height: 100%;
+          width: 100%;
+          top: 0%;
+        }
       }
       h2 {
         padding-left: 50px;

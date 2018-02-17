@@ -7,7 +7,7 @@
 		"uuidString": "5CE90E33-6BAC-4FF6-978B-8AECD7FDDB26"
 		}
 	],
-"creatorBuild": "26261",
+"creatorBuild": "26268",
 "files": {
 	"\/about\/index.html": {
 		"cB": 0,
@@ -943,19 +943,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/css\/_nav.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/css\/_page-settings.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/css\/_page-settings.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1899,6 +1886,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,

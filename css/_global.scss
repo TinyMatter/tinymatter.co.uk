@@ -49,6 +49,8 @@ h3 {
 p {
   font-size: 1.6rem;
   margin: 0;
+  line-height: 1.4;
+  letter-spacing: 0.01rem;
   &.big-p {
     font-size: 2rem;
   }
@@ -201,17 +203,4 @@ h6 {
   height: 40px;
   width: 40px;
   margin-bottom: 20px;
-}
-
-.hide-mobile {
-  @include mobile {
-    display: none;
-  }
-}
-
-.show-mobile {
-  display: none;
-  @include mobile {
-    display: block;
-  }
 }

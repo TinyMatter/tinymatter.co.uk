@@ -23,6 +23,7 @@
       padding: 24px 24px 24px 50px;
       overflow: hidden;
       @include mobile {
+        justify-content: flex-start;
         padding: 16px 16px 16px 24px;
       }
       h3 {

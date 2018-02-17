@@ -14,4 +14,9 @@ footer {
       font-size: 12px;
     }
   }
+  span {
+    @include mobile {
+      display: none;
+    }
+  }
 }
