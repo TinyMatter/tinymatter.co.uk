@@ -7,12 +7,12 @@
   background: rgba(0, 0, 0, 0.5);
   color: white;
   @include narrow {
-    overflow: hidden;
+    // overflow: hidden;
   }
   h1 {
-    position: relative;
+    position: absolute;
     color: white;
-    margin-bottom: 10px;
+    top: 15vh;
   }
   .title-prepend {
     position: relative;
@@ -40,11 +40,10 @@
     z-index: -1;
     transform: translateX(-50%) translateY(-50%);
     background: url("/img/hero-placeholder.png") no-repeat;
-    background-size: cover;
+    // background-size: cover;
     @include narrow {
       position: relative;
-      top: 0;
-      // background-size: contain;
+      // top: 0;
     }
   }
   .scroll-down {
@@ -83,7 +82,10 @@
     height: 50vh;
     overflow: hidden;
     @include mobile {
+      position: relative;
+      top: 70px;
       height: calc(50vh + 70px);
+      margin-bottom: 70px;
     }
   }
 }

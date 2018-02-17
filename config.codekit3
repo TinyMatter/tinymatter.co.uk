@@ -1378,6 +1378,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/hero-footballsurvivor.jpg": {
+		"ft": 16384,
+		"iS": 1504883,
+		"oA": 0,
+		"oAP": "\/img\/hero-footballsurvivor.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/img\/hero-footballsurvivor.png": {
 		"ft": 32768,
 		"iS": 601596,
@@ -1554,6 +1564,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/logo-disney-light.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo-disney-light.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/logo-disney.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1569,6 +1589,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/logo-downloads.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/logo-football-survivor-light.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo-football-survivor-light.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1599,6 +1629,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/logo-pepsi.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/logo-qi-light.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo-qi-light.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,

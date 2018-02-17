@@ -46,7 +46,6 @@
       height: 150%;
       width: 100%;
       top: -25%;
-      background-color: pink;
       transition: transform 5000ms ease-in-out;
       @include narrow {
         height: 50%;
@@ -55,19 +54,34 @@
 
       &.case-study-1 {
         background: linear-gradient(to right, rgba(0, 0, 0, 0.5)),
-          url("/img/hero-footballsurvivor.png") no-repeat center center;
+          url("/img/hero-footballsurvivor.jpg") no-repeat center center;
         background-size: cover;
         margin-top: 0;
+        @include narrow {
+          background: linear-gradient(to right, rgba(0, 0, 0, 0)),
+            url("/img/hero-footballsurvivor.jpg") no-repeat center center;
+          background-size: cover;
+        }
       }
       &.case-study-2 {
         background: linear-gradient(to right, rgba(0, 0, 0, 0.5)),
           url("/img/hero-disney.png") no-repeat center center;
         background-size: cover;
+        @include narrow {
+          background: linear-gradient(to right, rgba(0, 0, 0, 0)),
+            url("/img/hero-disney.png") no-repeat center center;
+          background-size: cover;
+        }
       }
       &.case-study-3 {
         background: linear-gradient(to right, rgba(0, 0, 0, 0.5)),
           url("/img/hero-qiktionary-large.png") no-repeat center center;
         background-size: cover;
+        @include narrow {
+          background: linear-gradient(to right, rgba(0, 0, 0, 0)),
+            url("/img/hero-qiktionary.png") no-repeat center center;
+          background-size: cover;
+        }
       }
       &:hover {
         transform: scale(1.1) rotate(5deg);
@@ -99,12 +113,12 @@
       padding: 30px;
       z-index: 1;
       @include narrow {
+        position: relative;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
         flex-direction: column;
         padding: 20px;
-        text-align: center;
       }
       .button-box {
         border: 0;
@@ -120,6 +134,17 @@
           display: inline-flex;
           padding-top: 10px;
           border-bottom: 1px solid $brand-pink;
+        }
+      }
+      .case-study-logo {
+        display: none;
+        @include narrow {
+          position: absolute;
+          display: block;
+          right: -30px;
+          bottom: -10px;
+          opacity: 0.03;
+          width: 150px;
         }
       }
     }

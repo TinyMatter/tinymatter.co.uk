@@ -24,7 +24,7 @@ body {
 
 h1 {
   font-size: 6rem;
-  font-weight: 700;
+  font-weight: 800;
   margin: 0; }
   @media (max-width: 425px) {
     h1 {
@@ -91,8 +91,10 @@ section {
         padding: 100px 50px; } }
 
 .container {
+  position: relative;
   margin: auto 0;
-  width: 100%; }
+  width: 100%;
+  height: 100%; }
   @media (min-width: 1024px) {
     .container {
       max-width: 1200px;
@@ -210,13 +212,10 @@ h6 {
   height: 100vh;
   background: rgba(0, 0, 0, 0.5);
   color: white; }
-  @media (max-width: 425px) {
-    .hero {
-      overflow: hidden; } }
   .hero h1 {
-    position: relative;
+    position: absolute;
     color: white;
-    margin-bottom: 10px; }
+    top: 15vh; }
   .hero .title-prepend {
     position: relative;
     font-family: "Montserrat", "Helvetica Neue", sans-serif;
@@ -241,13 +240,11 @@ h6 {
     z-index: -1;
     -webkit-transform: translateX(-50%) translateY(-50%);
             transform: translateX(-50%) translateY(-50%);
-    background: url("/img/hero-placeholder.png") no-repeat;
-    background-size: cover; }
+    background: url("/img/hero-placeholder.png") no-repeat; }
     @media (max-width: 425px) {
       .hero video#bgvideo,
       .hero img#bgimage {
-        position: relative;
-        top: 0; } }
+        position: relative; } }
   .hero .scroll-down {
     position: absolute;
     bottom: 50px;
@@ -290,7 +287,10 @@ h6 {
     overflow: hidden; }
     @media (max-width: 767px) {
       .hero.short-vh {
-        height: calc(50vh + 70px); } }
+        position: relative;
+        top: 70px;
+        height: calc(50vh + 70px);
+        margin-bottom: 70px; } }
 
 footer {
   display: -webkit-box;
@@ -455,7 +455,6 @@ nav {
     height: 150%;
     width: 100%;
     top: -25%;
-    background-color: pink;
     -webkit-transition: -webkit-transform 5000ms ease-in-out;
     transition: -webkit-transform 5000ms ease-in-out;
     transition: transform 5000ms ease-in-out;
@@ -465,18 +464,33 @@ nav {
         height: 50%;
         top: 0; } }
     .case-studies .work-box .background-image.case-study-1 {
-      background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5))), url("/img/hero-footballsurvivor.png") no-repeat center center;
-      background: linear-gradient(to right, rgba(0, 0, 0, 0.5)), url("/img/hero-footballsurvivor.png") no-repeat center center;
+      background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5))), url("/img/hero-footballsurvivor.jpg") no-repeat center center;
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.5)), url("/img/hero-footballsurvivor.jpg") no-repeat center center;
       background-size: cover;
       margin-top: 0; }
+      @media (max-width: 425px) {
+        .case-studies .work-box .background-image.case-study-1 {
+          background: -webkit-gradient(linear, left top, right top, from(transparent)), url("/img/hero-footballsurvivor.jpg") no-repeat center center;
+          background: linear-gradient(to right, transparent), url("/img/hero-footballsurvivor.jpg") no-repeat center center;
+          background-size: cover; } }
     .case-studies .work-box .background-image.case-study-2 {
       background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5))), url("/img/hero-disney.png") no-repeat center center;
       background: linear-gradient(to right, rgba(0, 0, 0, 0.5)), url("/img/hero-disney.png") no-repeat center center;
       background-size: cover; }
+      @media (max-width: 425px) {
+        .case-studies .work-box .background-image.case-study-2 {
+          background: -webkit-gradient(linear, left top, right top, from(transparent)), url("/img/hero-disney.png") no-repeat center center;
+          background: linear-gradient(to right, transparent), url("/img/hero-disney.png") no-repeat center center;
+          background-size: cover; } }
     .case-studies .work-box .background-image.case-study-3 {
       background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5))), url("/img/hero-qiktionary-large.png") no-repeat center center;
       background: linear-gradient(to right, rgba(0, 0, 0, 0.5)), url("/img/hero-qiktionary-large.png") no-repeat center center;
       background-size: cover; }
+      @media (max-width: 425px) {
+        .case-studies .work-box .background-image.case-study-3 {
+          background: -webkit-gradient(linear, left top, right top, from(transparent)), url("/img/hero-qiktionary.png") no-repeat center center;
+          background: linear-gradient(to right, transparent), url("/img/hero-qiktionary.png") no-repeat center center;
+          background-size: cover; } }
     .case-studies .work-box .background-image:hover {
       -webkit-transform: scale(1.1) rotate(5deg);
               transform: scale(1.1) rotate(5deg); }
@@ -505,12 +519,13 @@ nav {
     z-index: 1; }
     @media (max-width: 425px) {
       .case-studies .work-box .copy {
+        position: relative;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center;
@@ -518,8 +533,7 @@ nav {
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column;
-        padding: 20px;
-        text-align: center; } }
+        padding: 20px; } }
     .case-studies .work-box .copy .button-box {
       border: 0; }
     @media (max-width: 425px) {
@@ -534,6 +548,16 @@ nav {
           display: inline-flex;
           padding-top: 10px;
           border-bottom: 1px solid #f53170; } }
+    .case-studies .work-box .copy .case-study-logo {
+      display: none; }
+      @media (max-width: 425px) {
+        .case-studies .work-box .copy .case-study-logo {
+          position: absolute;
+          display: block;
+          right: -30px;
+          bottom: -10px;
+          opacity: 0.03;
+          width: 150px; } }
   .case-studies .work-box h2 {
     margin-bottom: 6px; }
     @media (max-width: 425px) {
