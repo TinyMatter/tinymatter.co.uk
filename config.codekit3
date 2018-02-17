@@ -1369,6 +1369,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/device-disney.png": {
+		"ft": 32768,
+		"iS": 3570272,
+		"oA": 0,
+		"oAP": "\/img\/device-disney.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/device-iphone-qiktionary.png": {
 		"ft": 32768,
 		"iS": 1055001,
@@ -1389,6 +1400,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/img\/hero-disney.jpg": {
+		"ft": 16384,
+		"iS": 2692956,
+		"oA": 0,
+		"oAP": "\/img\/hero-disney.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/hero-disney.png": {
@@ -1659,6 +1680,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/logo-leagues.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo-leagues.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/logo-nike.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1674,6 +1705,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/logo-pepsi.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/logo-players.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo-players.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,

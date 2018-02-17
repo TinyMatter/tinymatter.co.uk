@@ -53,7 +53,7 @@
     position: absolute;
     &.jamie-redknapp {
       right: -40px;
-      top: 0px;
+      bottom: 0px;
       width: 50vw;
     }
     &.qiktionary {
@@ -66,9 +66,12 @@
       }
     }
     &.disney {
-      right: -40px;
-      top: 0px;
-      width: 50vw;
+      right: 10px;
+      bottom: 0px;
+      width: 80vw;
+      @include narrow {
+        width: 60vw;
+      }
     }
   }
 }

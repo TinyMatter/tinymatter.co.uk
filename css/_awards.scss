@@ -57,6 +57,14 @@
         background: url("/img/logo-downloads.svg") no-repeat center center;
         background-size: contain;
       }
+      .players {
+        background: url("/img/logo-players.svg") no-repeat center center;
+        background-size: contain;
+      }
+      .leagues {
+        background: url("/img/logo-leagues.svg") no-repeat center center;
+        background-size: contain;
+      }
     }
     &.grid-6 li {
       flex: 0 0 calc(33.333% - 20px);

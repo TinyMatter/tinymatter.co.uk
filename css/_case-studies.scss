@@ -1,4 +1,9 @@
 .case-studies {
+  @include mobile {
+    padding: 0;
+    margin: 0 50px;
+    background: $background !important;
+  }
   @include narrow {
     padding: 0;
     margin: 0 20px;
@@ -22,19 +27,25 @@
     &:hover {
       transform: scale(1.01);
       background-size: 105%;
-      @include narrow {
+      @include mobile {
         transform: scale(1);
         background-size: 100%;
       }
       .arrow {
         transform: rotate(-90deg) translateY(0px) scale(1.5);
-        @include narrow {
+        @include mobile {
           display: none;
         }
         polygon {
           fill: $brand-pink;
         }
       }
+    }
+    @include mobile {
+      background-color: $brand-blue;
+      margin: 50px 0;
+      color: white;
+      min-height: 400px;
     }
     @include narrow {
       background-color: $brand-blue;
@@ -48,7 +59,7 @@
       width: 100%;
       top: -25%;
       transition: transform 5000ms ease-in-out;
-      @include narrow {
+      @include mobile {
         height: 50%;
         top: 0;
       }
@@ -58,7 +69,7 @@
           url("/img/hero-footballsurvivor.jpg") no-repeat center center;
         background-size: cover;
         margin-top: 0;
-        @include narrow {
+        @include mobile {
           background: linear-gradient(to right, rgba(0, 0, 0, 0)),
             url("/img/hero-footballsurvivor.jpg") no-repeat center center;
           background-size: cover;
@@ -66,11 +77,11 @@
       }
       &.case-study-2 {
         background: linear-gradient(to right, rgba(0, 0, 0, 0.5)),
-          url("/img/hero-disney.png") no-repeat center center;
+          url("/img/hero-disney.jpg") no-repeat center center;
         background-size: cover;
-        @include narrow {
+        @include mobile {
           background: linear-gradient(to right, rgba(0, 0, 0, 0)),
-            url("/img/hero-disney.png") no-repeat center center;
+            url("/img/hero-disney.jpg") no-repeat center center;
           background-size: cover;
         }
       }
@@ -78,7 +89,7 @@
         background: linear-gradient(to right, rgba(0, 0, 0, 0.5)),
           url("/img/hero-qiktionary-large.png") no-repeat center center;
         background-size: cover;
-        @include narrow {
+        @include mobile {
           background: linear-gradient(to right, rgba(0, 0, 0, 0)),
             url("/img/hero-qiktionary.png") no-repeat center center;
           background-size: cover;
@@ -86,7 +97,7 @@
       }
       &:hover {
         transform: scale(1.1) rotate(5deg);
-        @include narrow {
+        @include mobile {
           transform: scale(1) rotate(0deg);
         }
       }
@@ -97,7 +108,7 @@
       font-family: $title-font;
       font-weight: 500;
       margin-top: 20px;
-      @include narrow {
+      @include mobile {
         display: none;
       }
       span {
@@ -113,25 +124,28 @@
     .copy {
       padding: 30px;
       z-index: 1;
-      @include narrow {
+      @include mobile {
         position: relative;
         display: flex;
         align-items: flex-start;
         justify-content: center;
         flex-direction: column;
+        padding: 30px;
+      }
+      @include narrow {
         padding: 20px;
       }
       .button-box {
         border: 0;
       }
       .project-description {
-        @include narrow {
+        @include mobile {
           color: $brand-blue-light;
         }
       }
       .view-link {
         display: none;
-        @include narrow {
+        @include mobile {
           display: inline-flex;
           padding-top: 10px;
           border-bottom: 1px solid $brand-pink;
@@ -139,13 +153,17 @@
       }
       .case-study-logo {
         display: none;
-        @include narrow {
+        @include mobile {
           position: absolute;
           display: block;
-          right: -30px;
-          bottom: -10px;
+          right: -8px;
+          bottom: 0px;
           opacity: 0.03;
           width: 150px;
+        }
+        @include narrow {
+          right: -30px;
+          bottom: -10px;
         }
       }
     }
@@ -156,7 +174,7 @@
         font-size: 2.8rem;
       }
       span {
-        @include narrow {
+        @include mobile {
           display: none;
         }
       }
@@ -170,38 +188,38 @@
       &:first-child {
         margin-top: 0;
       }
-      @include narrow {
+      @include mobile {
         justify-content: center;
         color: white;
       }
       .copy {
-        @include narrow {
+        @include mobile {
           align-items: center;
         }
       }
       .background-image {
         &.case-study-1 {
-          @include narrow {
+          @include mobile {
             background: linear-gradient(to right, rgba(0, 0, 0, 0.5)),
               url("/img/hero-footballsurvivor.jpg") no-repeat center center;
             background-size: cover;
           }
         }
         &.case-study-2 {
-          @include narrow {
+          @include mobile {
             background: linear-gradient(to right, rgba(0, 0, 0, 0.5)),
               url("/img/hero-disney.png") no-repeat center center;
             background-size: cover;
           }
         }
         &.case-study-3 {
-          @include narrow {
+          @include mobile {
             background: linear-gradient(to right, rgba(0, 0, 0, 0.5)),
               url("/img/hero-qiktionary.png") no-repeat center center;
             background-size: cover;
           }
         }
-        @include narrow {
+        @include mobile {
           height: 100%;
           width: 100%;
           top: 0%;
@@ -209,7 +227,7 @@
       }
       h2 {
         padding-left: 50px;
-        @include narrow {
+        @include mobile {
           text-align: center;
           padding: 0;
           width: 100%;
