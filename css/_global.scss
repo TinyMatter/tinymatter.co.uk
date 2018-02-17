@@ -26,7 +26,7 @@ h1 {
   font-size: 6rem;
   font-weight: 700;
   margin: 0;
-  @include mobile {
+  @include narrow {
     font-size: 3rem;
   }
 }
@@ -36,7 +36,7 @@ h2 {
   font-weight: 700;
   margin-top: 0;
   margin-bottom: 20px;
-  @include mobile {
+  @include narrow {
     font-size: 2.3rem;
     line-height: 1.3;
   }
@@ -85,7 +85,7 @@ a {
 section {
   padding: 50px;
   background: $background;
-  @include mobile {
+  @include narrow {
     padding: 20px;
   }
   &.dark {
@@ -94,7 +94,7 @@ section {
   }
   &.short {
     padding: 100px 200px 100px 50px;
-    @include mobile {
+    @include narrow {
       padding: 20px;
     }
     @include desktop {

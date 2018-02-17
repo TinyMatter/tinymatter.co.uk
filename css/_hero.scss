@@ -6,8 +6,9 @@
   height: 100vh;
   background: rgba(0, 0, 0, 0.5);
   color: white;
-  @include mobile {
-    height: 80vh;
+  @include narrow {
+    position: relative;
+    top: 70px;
     overflow: hidden;
   }
   h1 {
@@ -20,7 +21,7 @@
     font-family: $title-font;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
-    @include mobile {
+    @include narrow {
       margin-top: 40vh;
       margin-bottom: 0;
     }
@@ -39,14 +40,13 @@
     width: auto;
     height: auto;
     z-index: -1;
-    -ms-transform: translateX(-50%) translateY(-50%);
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
     transform: translateX(-50%) translateY(-50%);
     background: url("/img/hero-placeholder.png") no-repeat;
     background-size: cover;
-    @include mobile {
+    @include narrow {
       position: relative;
+      top: 0;
+      background-size: contain;
     }
   }
   .scroll-down {
@@ -54,7 +54,7 @@
     bottom: 50px;
     left: 50px;
     height: 60px;
-    @include mobile {
+    @include narrow {
       bottom: 20px;
       left: 20px;
     }
@@ -82,6 +82,9 @@
     }
   }
   &.short-vh {
-    height: 80vh;
+    height: 50vh;
+    @include mobile {
+      height: auto;
+    }
   }
 }

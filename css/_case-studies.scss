@@ -1,5 +1,5 @@
 .case-studies {
-  @include mobile {
+  @include narrow {
     padding: 0;
     margin: 0 20px;
     background: $background !important;
@@ -22,13 +22,13 @@
     &:hover {
       transform: scale(1.01);
       background-size: 105%;
-      @include mobile {
+      @include narrow {
         transform: scale(1);
         background-size: 100%;
       }
       .arrow {
         transform: rotate(-90deg) translateY(0px) scale(1.5);
-        @include mobile {
+        @include narrow {
           display: none;
         }
         polygon {
@@ -36,10 +36,10 @@
         }
       }
     }
-    @include mobile {
-      background-color: white;
+    @include narrow {
+      background-color: $brand-blue;
       margin: 20px 0;
-      color: $brand-blue;
+      color: white;
     }
     .background-image {
       position: absolute;
@@ -48,7 +48,7 @@
       top: -25%;
       background-color: pink;
       transition: transform 5000ms ease-in-out;
-      @include mobile {
+      @include narrow {
         height: 50%;
         top: 0;
       }
@@ -71,7 +71,7 @@
       }
       &:hover {
         transform: scale(1.1) rotate(5deg);
-        @include mobile {
+        @include narrow {
           transform: scale(1) rotate(0deg);
         }
       }
@@ -82,7 +82,7 @@
       font-family: $title-font;
       font-weight: 500;
       margin-top: 20px;
-      @include mobile {
+      @include narrow {
         display: none;
       }
       span {
@@ -98,7 +98,7 @@
     .copy {
       padding: 30px;
       z-index: 1;
-      @include mobile {
+      @include narrow {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -109,9 +109,14 @@
       .button-box {
         border: 0;
       }
+      .project-description {
+        @include narrow {
+          color: $brand-blue-light;
+        }
+      }
       .view-link {
         display: none;
-        @include mobile {
+        @include narrow {
           display: inline-flex;
           padding-top: 10px;
           border-bottom: 1px solid $brand-pink;
@@ -121,11 +126,11 @@
 
     h2 {
       margin-bottom: 6px;
-      @include mobile {
+      @include narrow {
         font-size: 2.8rem;
       }
       span {
-        @include mobile {
+        @include narrow {
           display: none;
         }
       }
@@ -136,12 +141,12 @@
       align-items: center;
       flex-direction: row;
       min-height: 200px;
-      @include mobile {
+      @include narrow {
         justify-content: center;
         color: white;
       }
       .background-image {
-        @include mobile {
+        @include narrow {
           height: 100%;
           width: 100%;
           top: 0%;
@@ -149,7 +154,7 @@
       }
       h2 {
         padding-left: 50px;
-        @include mobile {
+        @include narrow {
           text-align: center;
           padding: 0;
           width: 100%;

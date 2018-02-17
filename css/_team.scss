@@ -3,7 +3,7 @@
     display: flex;
     margin-left: -10px;
     margin-right: -10px;
-    @include mobile {
+    @include narrow {
       flex-wrap: wrap;
     }
     li {
@@ -19,7 +19,7 @@
       overflow: hidden;
       min-height: 250px;
       padding: 20px;
-      @include mobile {
+      @include narrow {
         flex: 1 0 calc(50% - 20px);
       }
       &.james {
@@ -43,7 +43,7 @@
         background-size: cover;
       }
       p {
-        @include mobile {
+        @include narrow {
           font-size: 1.2rem;
         }
         &:first-child {

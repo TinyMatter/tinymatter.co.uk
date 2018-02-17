@@ -8,7 +8,7 @@
 .address-container {
   min-height: 300px;
   .map {
-    @include mobile {
+    @include narrow {
       display: none;
     }
     iframe {

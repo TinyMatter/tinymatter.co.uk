@@ -5,17 +5,17 @@ footer {
   background: darken($background, 2);
   padding: 30px;
   color: $brand-blue;
-  @include mobile {
+  @include narrow {
     padding: 20px;
   }
   p {
     color: lighten($brand-blue, 40);
-    @include mobile {
+    @include narrow {
       font-size: 12px;
     }
   }
   span {
-    @include mobile {
+    @include narrow {
       display: none;
     }
   }

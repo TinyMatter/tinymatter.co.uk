@@ -1,7 +1,7 @@
 .clients {
   padding-top: 150px;
   padding-bottom: 150px;
-  @include mobile {
+  @include narrow {
     padding-top: 80px;
     padding-bottom: 50px;
   }
@@ -21,11 +21,11 @@
       border-radius: 2px;
       opacity: 0.5;
       padding: 50px;
-      @include mobile {
+      @include narrow {
         flex: 0 0 calc(33.333% - 20px);
         padding: 10px;
         height: 100px;
-        background: none;
+        background: $background !important;
         opacity: 1;
       }
       .client {
