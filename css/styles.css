@@ -212,8 +212,6 @@ h6 {
   color: white; }
   @media (max-width: 425px) {
     .hero {
-      position: relative;
-      top: 70px;
       overflow: hidden; } }
   .hero h1 {
     position: relative;
@@ -249,8 +247,7 @@ h6 {
       .hero video#bgvideo,
       .hero img#bgimage {
         position: relative;
-        top: 0;
-        background-size: contain; } }
+        top: 0; } }
   .hero .scroll-down {
     position: absolute;
     bottom: 50px;
@@ -289,10 +286,11 @@ h6 {
   100% {
     top: 0; } }
   .hero.short-vh {
-    height: 50vh; }
+    height: 50vh;
+    overflow: hidden; }
     @media (max-width: 767px) {
       .hero.short-vh {
-        height: auto; } }
+        height: calc(50vh + 70px); } }
 
 footer {
   display: -webkit-box;
@@ -771,6 +769,10 @@ nav {
     padding-top: 0px;
     padding-bottom: 50px; }
 
+@media (max-width: 425px) {
+  .team h2 {
+    display: none; } }
+
 .team ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -831,6 +833,7 @@ nav {
         font-size: 1.2rem; } }
     .team ul li p:first-child {
       font-family: "Montserrat", "Helvetica Neue", sans-serif;
+      font-weight: 700;
       color: #f53170; }
 
 .address {

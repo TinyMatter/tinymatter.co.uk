@@ -1,4 +1,9 @@
 .team {
+  h2 {
+    @include narrow {
+      display: none;
+    }
+  }
   ul {
     display: flex;
     margin-left: -10px;
@@ -48,6 +53,7 @@
         }
         &:first-child {
           font-family: $title-font;
+          font-weight: 700;
           color: $brand-pink;
         }
       }
