@@ -170,7 +170,33 @@
         justify-content: center;
         color: white;
       }
+      .copy {
+        @include narrow {
+          align-items: center;
+        }
+      }
       .background-image {
+        &.case-study-1 {
+          @include narrow {
+            background: linear-gradient(to right, rgba(0, 0, 0, 0.5)),
+              url("/img/hero-footballsurvivor.jpg") no-repeat center center;
+            background-size: cover;
+          }
+        }
+        &.case-study-2 {
+          @include narrow {
+            background: linear-gradient(to right, rgba(0, 0, 0, 0.5)),
+              url("/img/hero-disney.png") no-repeat center center;
+            background-size: cover;
+          }
+        }
+        &.case-study-3 {
+          @include narrow {
+            background: linear-gradient(to right, rgba(0, 0, 0, 0.5)),
+              url("/img/hero-qiktionary.png") no-repeat center center;
+            background-size: cover;
+          }
+        }
         @include narrow {
           height: 100%;
           width: 100%;

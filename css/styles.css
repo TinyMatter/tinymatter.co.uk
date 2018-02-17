@@ -85,7 +85,7 @@ section {
     padding: 100px 200px 100px 50px; }
     @media (max-width: 425px) {
       section.short {
-        padding: 20px; } }
+        padding: 50px 20px; } }
     @media (min-width: 1024px) {
       section.short {
         padding: 100px 50px; } }
@@ -383,12 +383,20 @@ nav {
       nav ul li:last-child {
         margin-right: 0; }
 
+@media (max-width: 425px) {
+  .contact {
+    padding-top: 150px;
+    padding-bottom: 100px; } }
+
 .contact p,
 .contact a {
   font-size: 2rem; }
 
 .address-container {
   min-height: 300px; }
+  .address-container .details .map-pin {
+    height: 40px;
+    margin-bottom: 10px; }
   @media (max-width: 425px) {
     .address-container .map {
       display: none; } }
@@ -588,6 +596,26 @@ nav {
                 justify-content: center;
         color: white; } }
     @media (max-width: 425px) {
+      .case-studies .work-box.mini .copy {
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; } }
+    @media (max-width: 425px) {
+      .case-studies .work-box.mini .background-image.case-study-1 {
+        background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5))), url("/img/hero-footballsurvivor.jpg") no-repeat center center;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.5)), url("/img/hero-footballsurvivor.jpg") no-repeat center center;
+        background-size: cover; } }
+    @media (max-width: 425px) {
+      .case-studies .work-box.mini .background-image.case-study-2 {
+        background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5))), url("/img/hero-disney.png") no-repeat center center;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.5)), url("/img/hero-disney.png") no-repeat center center;
+        background-size: cover; } }
+    @media (max-width: 425px) {
+      .case-studies .work-box.mini .background-image.case-study-3 {
+        background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5))), url("/img/hero-qiktionary.png") no-repeat center center;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.5)), url("/img/hero-qiktionary.png") no-repeat center center;
+        background-size: cover; } }
+    @media (max-width: 425px) {
       .case-studies .work-box.mini .background-image {
         height: 100%;
         width: 100%;
@@ -637,8 +665,8 @@ nav {
   padding-bottom: 150px; }
   @media (max-width: 425px) {
     .clients {
-      padding-top: 80px;
-      padding-bottom: 50px; } }
+      padding-top: 50px;
+      padding-bottom: 0px; } }
   .clients ul {
     display: -webkit-box;
     display: -ms-flexbox;

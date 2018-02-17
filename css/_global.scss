@@ -95,7 +95,7 @@ section {
   &.short {
     padding: 100px 200px 100px 50px;
     @include narrow {
-      padding: 20px;
+      padding: 50px 20px;
     }
     @include desktop {
       padding: 100px 50px;
