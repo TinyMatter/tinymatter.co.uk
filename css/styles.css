@@ -911,6 +911,9 @@ nav {
       .stats ul li .leagues {
         background: url("/img/logo-leagues.svg") no-repeat center center;
         background-size: contain; }
+      .stats ul li .star {
+        background: url("/img/logo-star.svg") no-repeat center center;
+        background-size: contain; }
     .stats ul.grid-6 li {
       -webkit-box-flex: 0;
           -ms-flex: 0 0 calc(33.333% - 20px);
@@ -1205,6 +1208,9 @@ nav {
       right: 0;
       bottom: -200px;
       width: 60vw; }
+      @media (min-width: 1024px) {
+        .project-statement .project-image.qiktionary {
+          bottom: -220px; } }
       @media (max-width: 768px) {
         .project-statement .project-image.qiktionary {
           bottom: -150px;

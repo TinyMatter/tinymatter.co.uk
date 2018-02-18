@@ -65,6 +65,10 @@
         background: url("/img/logo-leagues.svg") no-repeat center center;
         background-size: contain;
       }
+      .star {
+        background: url("/img/logo-star.svg") no-repeat center center;
+        background-size: contain;
+      }
     }
     &.grid-6 li {
       flex: 0 0 calc(33.333% - 20px);
