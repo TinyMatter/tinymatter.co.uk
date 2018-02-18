@@ -54,14 +54,24 @@
     &.jamie-redknapp {
       right: -40px;
       bottom: 0px;
-      width: 50vw;
+      width: 45vw;
+      @include desktop {
+        width: 38vw;
+      }
+      @include mobile {
+        width: 60vw;
+      }
     }
     &.qiktionary {
       right: 0;
       bottom: -200px;
       width: 60vw;
+      @include mobile {
+        bottom: -150px;
+        width: 90vw;
+      }
       @include narrow {
-        bottom: -100px;
+        bottom: -120px;
         width: 70vw;
       }
     }
@@ -69,6 +79,12 @@
       right: 10px;
       bottom: 0px;
       width: 80vw;
+      @include desktop {
+        width: 60vw;
+      }
+      @include mobile {
+        width: 80vw;
+      }
       @include narrow {
         width: 60vw;
       }

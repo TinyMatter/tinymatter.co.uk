@@ -1,4 +1,7 @@
 .contact {
+  background: darken($background, 6);
+  padding-top: 50px;
+  padding-bottom: 50px;
   @include narrow {
     padding-top: 136px;
     padding-bottom: 100px;

@@ -10,7 +10,7 @@ nav {
   font-family: $title-font;
   font-weight: 700;
   transition: all 150ms linear;
-  @include narrow {
+  @include mobile {
     padding: 15px 20px;
     background: $brand-blue;
     box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
@@ -19,17 +19,24 @@ nav {
   &.scroll {
     box-shadow: 0 0 4px 4px rgba(0, 0, 0, 0.1);
     background: $brand-blue;
-    @include narrow {
+    @include mobile {
       background: $brand-blue;
     }
   }
   a {
     border-bottom: none;
+    @include mobile {
+      font-size: 17px;
+      font-weight: 500;
+      img {
+        display: flex;
+        height: 28px;
+      }
+    }
     @include narrow {
       font-size: 15px;
       font-weight: 500;
       img {
-        display: flex;
         height: 22px;
       }
     }
@@ -39,17 +46,19 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    @include narrow {
+    @include mobile {
       margin: 10px 0;
     }
     li {
       margin-right: 40px;
+      @include mobile {
+        margin-right: 30px;
+      }
       @include narrow {
         margin-right: 15px;
       }
       &.active a {
         color: $brand-pink;
-        border-bottom: 1px solid white;
       }
       &:last-child {
         margin-right: 0;

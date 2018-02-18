@@ -159,7 +159,7 @@ h6 {
 .arrow-appear {
   .arrow {
     position: relative;
-    top: -5px;
+    top: 5px;
     transform: rotate(-90deg) translateY(20px) scale(1);
     transition: all 150ms ease-in-out;
     path {
@@ -177,7 +177,6 @@ h6 {
   font-family: $title-font;
   border-bottom: 3px solid $brand-pink;
   padding: 14px 8px;
-  color: $brand-blue;
   transition: all 150ms ease-in-out;
   .arrow {
     transition: all 150ms ease-in-out;
