@@ -1185,13 +1185,16 @@ nav {
     position: relative;
     top: -10%;
     z-index: 2; }
-  .project-statement h2 {
-    width: 70vw; }
-    @media (max-width: 425px) {
-      .project-statement h2 {
-        width: 100%; } }
-  .project-statement p {
-    color: #7998a6; }
+    .project-statement .statement-text h2 {
+      width: 70vw; }
+      @media (min-width: 1024px) {
+        .project-statement .statement-text h2 {
+          font-size: 3rem; } }
+      @media (max-width: 425px) {
+        .project-statement .statement-text h2 {
+          width: 100%; } }
+    .project-statement .statement-text p {
+      color: #7998a6; }
   .project-statement .project-image {
     position: absolute; }
     .project-statement .project-image.jamie-redknapp {

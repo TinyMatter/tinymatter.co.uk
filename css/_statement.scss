@@ -38,16 +38,18 @@
     position: relative;
     top: -10%;
     z-index: 2;
-  }
-  h2 {
-    width: 70vw;
-
-    @include narrow {
-      width: 100%;
+    h2 {
+      width: 70vw;
+      @include desktop {
+        font-size: 3rem;
+      }
+      @include narrow {
+        width: 100%;
+      }
     }
-  }
-  p {
-    color: $brand-blue-light;
+    p {
+      color: $brand-blue-light;
+    }
   }
   .project-image {
     position: absolute;
