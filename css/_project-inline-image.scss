@@ -1,0 +1,30 @@
+.project-inline-image {
+  p {
+    font-size: 1.9rem;
+  }
+  .main-image {
+    margin-top: 50px;
+    width: 100%;
+    height: 500px;
+
+    @include mobile {
+      height: 300px;
+    }
+    @include narrow {
+      margin-top: 30px;
+      height: 200px;
+    }
+    &.football-survivor {
+      background: url("/img/device-footballsurvivor-inline.png") no-repeat center center;
+      background-size: contain;
+    }
+    &.disney {
+      background: url("/img/device-disney-inline.png") no-repeat center center;
+      background-size: contain;
+    }
+    &.qiktionary {
+      background: url("/img/device-qiktionary-inline.png") no-repeat center center;
+      background-size: contain;
+    }
+  }
+}

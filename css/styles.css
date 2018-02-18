@@ -1302,3 +1302,27 @@ nav {
     color: #f53170;
     text-transform: uppercase;
     letter-spacing: 0.03rem; }
+
+.project-inline-image p {
+  font-size: 1.9rem; }
+
+.project-inline-image .main-image {
+  margin-top: 50px;
+  width: 100%;
+  height: 500px; }
+  @media (max-width: 768px) {
+    .project-inline-image .main-image {
+      height: 300px; } }
+  @media (max-width: 425px) {
+    .project-inline-image .main-image {
+      margin-top: 30px;
+      height: 200px; } }
+  .project-inline-image .main-image.football-survivor {
+    background: url("/img/device-footballsurvivor-inline.png") no-repeat center center;
+    background-size: contain; }
+  .project-inline-image .main-image.disney {
+    background: url("/img/device-disney-inline.png") no-repeat center center;
+    background-size: contain; }
+  .project-inline-image .main-image.qiktionary {
+    background: url("/img/device-qiktionary-inline.png") no-repeat center center;
+    background-size: contain; }

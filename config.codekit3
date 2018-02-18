@@ -960,6 +960,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/css\/_project-inline-image.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/css\/_project-inline-image.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/css\/_project-results.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1380,6 +1393,50 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/device-footballsurvivor-1.png": {
+		"ft": 32768,
+		"iS": 2144920,
+		"oA": 0,
+		"oAP": "\/img\/device-footballsurvivor-1.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/device-footballsurvivor-2.png": {
+		"ft": 32768,
+		"iS": 1380726,
+		"oA": 0,
+		"oAP": "\/img\/device-footballsurvivor-2.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/device-footballsurvivor-3.png": {
+		"ft": 32768,
+		"iS": 605630,
+		"oA": 0,
+		"oAP": "\/img\/device-footballsurvivor-3.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/device-footballsurvivor-inline.png": {
+		"ft": 32768,
+		"iS": 635686,
+		"oA": 0,
+		"oAP": "\/img\/device-footballsurvivor-inline.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/device-iphone-qiktionary.png": {
 		"ft": 32768,
 		"iS": 1055001,
@@ -1396,6 +1453,17 @@
 		"iS": 1055001,
 		"oA": 0,
 		"oAP": "\/img\/device-iphone-qiktionary@2x.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/device-qiktionary-inline.png": {
+		"ft": 32768,
+		"iS": 157205,
+		"oA": 0,
+		"oAP": "\/img\/device-qiktionary-inline.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
