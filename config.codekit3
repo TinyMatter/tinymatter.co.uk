@@ -1382,6 +1382,16 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/img\/device-disney-inline.jpg": {
+		"ft": 16384,
+		"iS": 887413,
+		"oA": 0,
+		"oAP": "\/img\/device-disney-inline.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"\/img\/device-disney.png": {
 		"ft": 32768,
 		"iS": 3570272,
@@ -1424,6 +1434,16 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"\/img\/device-footballsurvivor-inline.jpg": {
+		"ft": 16384,
+		"iS": 744629,
+		"oA": 0,
+		"oAP": "\/img\/device-footballsurvivor-inline.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/device-footballsurvivor-inline.png": {
