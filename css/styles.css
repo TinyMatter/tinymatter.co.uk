@@ -145,7 +145,8 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Montserrat", "Helvetica Neue", sans-serif; }
+  font-family: "Montserrat", "Helvetica Neue", sans-serif;
+  text-rendering: optimizeLegibility; }
 
 .arrow-appear .arrow {
   position: relative;
@@ -172,13 +173,16 @@ h6 {
   -ms-flex-item-align: start;
       align-self: flex-start;
   font-family: "Montserrat", "Helvetica Neue", sans-serif;
-  border-bottom: 3px solid #f53170;
+  border-bottom: none;
   padding: 14px 8px;
   -webkit-transition: all 150ms ease-in-out;
   transition: all 150ms ease-in-out; }
   .button-box .arrow {
     -webkit-transition: all 150ms ease-in-out;
     transition: all 150ms ease-in-out; }
+    @media (max-width: 425px) {
+      .button-box .arrow {
+        width: 25px; } }
     .button-box .arrow path {
       -webkit-transition: all 150ms ease-in-out;
       transition: all 150ms ease-in-out; }
