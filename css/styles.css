@@ -231,6 +231,9 @@ h6 {
   width: 40px;
   margin-bottom: 20px; }
 
+.overflow-hidden {
+  overflow: hidden; }
+
 .hero {
   position: relative;
   overflow: hidden;
@@ -287,8 +290,9 @@ h6 {
       .hero img#bgimage {
         position: relative;
         min-height: 130%; } }
-    @media (max-width: 425px) {
+    @media (max-width: 768px) {
       .hero img#bgimage {
+        min-height: 120%;
         position: relative; } }
   .hero .scroll-down {
     position: absolute;
@@ -415,6 +419,11 @@ nav {
         font-weight: 500; }
         nav a img {
           height: 22px; } }
+    @media (max-width: 320px) {
+      nav a {
+        font-size: 13px; }
+        nav a img {
+          height: 20px; } }
   nav ul {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -456,6 +465,9 @@ nav {
 
 .contact-message {
   height: 80vh; }
+  @media (max-width: 320px) {
+    .contact-message {
+      height: 90vh; } }
 
 .address .address-container {
   min-height: 300px; }
@@ -516,8 +528,8 @@ nav {
                 transform: scale(1);
         background-size: 100%; } }
     .case-studies .work-box:hover .arrow {
-      -webkit-transform: rotate(-90deg) translateY(0px) scale(1);
-              transform: rotate(-90deg) translateY(0px) scale(1); }
+      -webkit-transform: rotate(-90deg) translateY(0px) scale(0.85);
+              transform: rotate(-90deg) translateY(0px) scale(0.85); }
       @media (max-width: 768px) {
         .case-studies .work-box:hover .arrow {
           display: none; } }
@@ -534,7 +546,10 @@ nav {
       background-color: #2f3b40;
       margin: 20px 0;
       color: white;
-      min-height: 400px; } }
+      min-height: 320px; } }
+  @media (max-width: 320px) {
+    .case-studies .work-box {
+      min-height: 370px; } }
   .case-studies .work-box .background-image {
     position: absolute;
     height: 150%;
@@ -568,13 +583,13 @@ nav {
           background: linear-gradient(to right, transparent), url("/img/hero-disney.jpg") no-repeat center center;
           background-size: cover; } }
     .case-studies .work-box .background-image.case-study-3 {
-      background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5))), url("/img/hero-qiktionary-large.png") no-repeat center center;
-      background: linear-gradient(to right, rgba(0, 0, 0, 0.5)), url("/img/hero-qiktionary-large.png") no-repeat center center;
+      background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5))), url("/img/hero-qiktionary.jpg") no-repeat center center;
+      background: linear-gradient(to right, rgba(0, 0, 0, 0.5)), url("/img/hero-qiktionary.jpg") no-repeat center center;
       background-size: cover; }
       @media (max-width: 768px) {
         .case-studies .work-box .background-image.case-study-3 {
-          background: -webkit-gradient(linear, left top, right top, from(transparent)), url("/img/hero-qiktionary.png") no-repeat center center;
-          background: linear-gradient(to right, transparent), url("/img/hero-qiktionary.png") no-repeat center center;
+          background: -webkit-gradient(linear, left top, right top, from(transparent)), url("/img/hero-qiktionary.jpg") no-repeat center center;
+          background: linear-gradient(to right, transparent), url("/img/hero-qiktionary.jpg") no-repeat center center;
           background-size: cover; } }
     .case-studies .work-box .background-image:hover {
       -webkit-transform: scale(1.1) rotate(5deg);
@@ -622,6 +637,9 @@ nav {
     @media (max-width: 425px) {
       .case-studies .work-box .copy {
         padding: 20px; } }
+    @media (max-width: 320px) {
+      .case-studies .work-box .copy h2 {
+        font-size: 2.4rem; } }
     .case-studies .work-box .copy .button-box {
       border: 0; }
     @media (max-width: 768px) {
@@ -699,13 +717,13 @@ nav {
         background-size: cover; } }
     @media (max-width: 768px) {
       .case-studies .work-box.mini .background-image.case-study-2 {
-        background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5))), url("/img/hero-disney.png") no-repeat center center;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.5)), url("/img/hero-disney.png") no-repeat center center;
+        background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5))), url("/img/hero-disney.jpg") no-repeat center center;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.5)), url("/img/hero-disney.jpg") no-repeat center center;
         background-size: cover; } }
     @media (max-width: 768px) {
       .case-studies .work-box.mini .background-image.case-study-3 {
-        background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5))), url("/img/hero-qiktionary.png") no-repeat center center;
-        background: linear-gradient(to right, rgba(0, 0, 0, 0.5)), url("/img/hero-qiktionary.png") no-repeat center center;
+        background: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5))), url("/img/hero-qiktionary.jpg") no-repeat center center;
+        background: linear-gradient(to right, rgba(0, 0, 0, 0.5)), url("/img/hero-qiktionary.jpg") no-repeat center center;
         background-size: cover; } }
     @media (max-width: 768px) {
       .case-studies .work-box.mini .background-image {
@@ -836,6 +854,9 @@ nav {
       .clients ul li .pepsi {
         background: url("/img/logo-pepsi.svg") no-repeat center center;
         background-size: contain; }
+      .clients ul li .nbc {
+        background: url("/img/logo-nbc.svg") no-repeat center center;
+        background-size: contain; }
       .clients ul li .workingtitle {
         background: url("/img/logo-workingtitle.png") no-repeat center center;
         background-size: contain; }
@@ -886,6 +907,9 @@ nav {
               -ms-flex-pack: start;
                   justify-content: flex-start;
           padding: 16px 16px 16px 24px; } }
+      @media (max-width: 320px) {
+        .stats ul li {
+          padding: 16px 16px 16px 18px; } }
       .stats ul li h3 {
         color: #f53170;
         font-family: "Montserrat", "Helvetica Neue", sans-serif;
@@ -893,6 +917,9 @@ nav {
         @media (max-width: 425px) {
           .stats ul li h3 {
             font-size: 4rem; } }
+        @media (max-width: 320px) {
+          .stats ul li h3 {
+            font-size: 3.4rem; } }
       .stats ul li .icon-stat {
         position: absolute;
         right: 10px;
@@ -983,20 +1010,20 @@ nav {
                 flex: 1 0 calc(50% - 20px);
         padding: 10px 10px 8px 10px; } }
     .team ul li.james {
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, transparent), to(rgba(0, 0, 0, 0.75))), url("/img/team-james.png") no-repeat center center;
-      background: linear-gradient(to bottom, transparent 25%, rgba(0, 0, 0, 0.75) 100%), url("/img/team-james.png") no-repeat center center;
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, transparent), to(rgba(0, 0, 0, 0.75))), url("/img/team-james.jpg") no-repeat center center;
+      background: linear-gradient(to bottom, transparent 25%, rgba(0, 0, 0, 0.75) 100%), url("/img/team-james.jpg") no-repeat center center;
       background-size: cover; }
     .team ul li.eric {
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, transparent), to(rgba(0, 0, 0, 0.75))), url("/img/team-eric.png") no-repeat center center;
-      background: linear-gradient(to bottom, transparent 25%, rgba(0, 0, 0, 0.75) 100%), url("/img/team-eric.png") no-repeat center center;
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, transparent), to(rgba(0, 0, 0, 0.75))), url("/img/team-eric.jpg") no-repeat center center;
+      background: linear-gradient(to bottom, transparent 25%, rgba(0, 0, 0, 0.75) 100%), url("/img/team-eric.jpg") no-repeat center center;
       background-size: cover; }
     .team ul li.dan {
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, transparent), to(rgba(0, 0, 0, 0.75))), url("/img/team-dan.png") no-repeat center center;
-      background: linear-gradient(to bottom, transparent 25%, rgba(0, 0, 0, 0.75) 100%), url("/img/team-dan.png") no-repeat center center;
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, transparent), to(rgba(0, 0, 0, 0.75))), url("/img/team-dan.jpg") no-repeat center center;
+      background: linear-gradient(to bottom, transparent 25%, rgba(0, 0, 0, 0.75) 100%), url("/img/team-dan.jpg") no-repeat center center;
       background-size: cover; }
     .team ul li.matt {
-      background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, transparent), to(rgba(0, 0, 0, 0.75))), url("/img/team-matt.png") no-repeat center center;
-      background: linear-gradient(to bottom, transparent 25%, rgba(0, 0, 0, 0.75) 100%), url("/img/team-matt.png") no-repeat center center;
+      background: -webkit-gradient(linear, left top, left bottom, color-stop(25%, transparent), to(rgba(0, 0, 0, 0.75))), url("/img/team-matt.jpg") no-repeat center center;
+      background: linear-gradient(to bottom, transparent 25%, rgba(0, 0, 0, 0.75) 100%), url("/img/team-matt.jpg") no-repeat center center;
       background-size: cover; }
     @media (max-width: 425px) {
       .team ul li p {
@@ -1037,8 +1064,8 @@ nav {
         -ms-flex-direction: column;
             flex-direction: column;
     color: white;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/img/background-team.png") no-repeat center center;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("/img/background-team.png") no-repeat center center;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.5))), url("/img/background-team.jpg") no-repeat center center;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("/img/background-team.jpg") no-repeat center center;
     background-size: cover;
     width: 50%;
     font-family: "Montserrat", "Helvetica Neue", sans-serif;
@@ -1216,7 +1243,7 @@ nav {
     .project-statement .project-image.qiktionary {
       right: 0;
       bottom: -200px;
-      width: 60vw; }
+      width: 70vw; }
       @media (min-width: 1024px) {
         .project-statement .project-image.qiktionary {
           bottom: -220px; } }
@@ -1241,9 +1268,6 @@ nav {
       @media (max-width: 425px) {
         .project-statement .project-image.disney {
           width: 60vw; } }
-
-.overflow-hidden {
-  overflow: hidden; }
 
 .project-results {
   padding-top: 150px; }
@@ -1321,23 +1345,9 @@ nav {
 .project-inline-image p {
   font-size: 1.9rem; }
 
-.project-inline-image .main-image {
-  margin-top: 50px;
+.project-inline-image img {
   width: 100%;
-  height: 500px; }
+  margin-top: 50px; }
   @media (max-width: 768px) {
-    .project-inline-image .main-image {
-      height: 300px; } }
-  @media (max-width: 425px) {
-    .project-inline-image .main-image {
-      margin-top: 30px;
-      height: 200px; } }
-  .project-inline-image .main-image.football-survivor {
-    background: url("/img/device-footballsurvivor-inline.jpg") no-repeat center center;
-    background-size: contain; }
-  .project-inline-image .main-image.disney {
-    background: url("/img/device-disney-inline.jpg") no-repeat center center;
-    background-size: contain; }
-  .project-inline-image .main-image.qiktionary {
-    background: url("/img/device-qiktionary-inline.jpg") no-repeat center center;
-    background-size: contain; }
+    .project-inline-image img {
+      margin-top: 20px; } }

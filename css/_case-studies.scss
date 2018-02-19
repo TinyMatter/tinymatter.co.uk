@@ -31,7 +31,7 @@
         background-size: 100%;
       }
       .arrow {
-        transform: rotate(-90deg) translateY(0px) scale(1);
+        transform: rotate(-90deg) translateY(0px) scale(0.85);
         @include mobile {
           display: none;
         }
@@ -50,7 +50,10 @@
       background-color: $brand-blue;
       margin: 20px 0;
       color: white;
-      min-height: 400px;
+      min-height: 320px;
+    }
+    @include super-narrow {
+      min-height: 370px;
     }
     .background-image {
       position: absolute;
@@ -86,11 +89,11 @@
       }
       &.case-study-3 {
         background: linear-gradient(to right, rgba(0, 0, 0, 0.5)),
-          url("/img/hero-qiktionary-large.png") no-repeat center center;
+          url("/img/hero-qiktionary.jpg") no-repeat center center;
         background-size: cover;
         @include mobile {
           background: linear-gradient(to right, rgba(0, 0, 0, 0)),
-            url("/img/hero-qiktionary.png") no-repeat center center;
+            url("/img/hero-qiktionary.jpg") no-repeat center center;
           background-size: cover;
         }
       }
@@ -134,6 +137,12 @@
       @include narrow {
         padding: 20px;
       }
+      h2 {
+        @include super-narrow {
+          font-size: 2.4rem;
+        }
+      }
+
       .button-box {
         border: 0;
       }
@@ -216,14 +225,14 @@
         &.case-study-2 {
           @include mobile {
             background: linear-gradient(to right, rgba(0, 0, 0, 0.5)),
-              url("/img/hero-disney.png") no-repeat center center;
+              url("/img/hero-disney.jpg") no-repeat center center;
             background-size: cover;
           }
         }
         &.case-study-3 {
           @include mobile {
             background: linear-gradient(to right, rgba(0, 0, 0, 0.5)),
-              url("/img/hero-qiktionary.png") no-repeat center center;
+              url("/img/hero-qiktionary.jpg") no-repeat center center;
             background-size: cover;
           }
         }

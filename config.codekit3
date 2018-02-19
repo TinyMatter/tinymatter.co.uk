@@ -1360,26 +1360,24 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/img\/background-team.png": {
-		"ft": 32768,
-		"iS": 3312351,
+	"\/img\/background-team.jpg": {
+		"ft": 16384,
+		"iS": 843645,
 		"oA": 0,
-		"oAP": "\/img\/background-team.png",
+		"oAP": "\/img\/background-team.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
+		"opt": 1,
 		"q": 100
 		},
-	"\/img\/background-work.png": {
-		"ft": 32768,
-		"iS": 5681378,
+	"\/img\/background-work.jpg": {
+		"ft": 16384,
+		"iS": 1581734,
 		"oA": 0,
-		"oAP": "\/img\/background-work.png",
+		"oAP": "\/img\/background-work.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/device-disney-inline.jpg": {
@@ -1392,48 +1390,14 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/device-disney.png": {
-		"ft": 32768,
-		"iS": 3570272,
+	"\/img\/device-disney.jpg": {
+		"ft": 16384,
+		"iS": 230527,
 		"oA": 0,
-		"oAP": "\/img\/device-disney.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/device-footballsurvivor-1.png": {
-		"ft": 32768,
-		"iS": 2144920,
-		"oA": 0,
-		"oAP": "\/img\/device-footballsurvivor-1.png",
+		"oAP": "\/img\/device-disney.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/device-footballsurvivor-2.png": {
-		"ft": 32768,
-		"iS": 1380726,
-		"oA": 0,
-		"oAP": "\/img\/device-footballsurvivor-2.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/device-footballsurvivor-3.png": {
-		"ft": 32768,
-		"iS": 605630,
-		"oA": 0,
-		"oAP": "\/img\/device-footballsurvivor-3.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"\/img\/device-footballsurvivor-inline.jpg": {
@@ -1443,50 +1407,27 @@
 		"oAP": "\/img\/device-footballsurvivor-inline.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
-	"\/img\/device-footballsurvivor-inline.png": {
-		"ft": 32768,
-		"iS": 635686,
+	"\/img\/device-qiktionary-inline.jpg": {
+		"ft": 16384,
+		"iS": 333636,
 		"oA": 0,
-		"oAP": "\/img\/device-footballsurvivor-inline.png",
+		"oAP": "\/img\/device-qiktionary-inline.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/img\/device-qiktionary.png": {
+		"ft": 32768,
+		"iS": 837525,
+		"oA": 0,
+		"oAP": "\/img\/device-qiktionary.png",
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/device-iphone-qiktionary.png": {
-		"ft": 32768,
-		"iS": 1055001,
-		"oA": 0,
-		"oAP": "\/img\/device-iphone-qiktionary.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/device-iphone-qiktionary@2x.png": {
-		"ft": 32768,
-		"iS": 1055001,
-		"oA": 0,
-		"oAP": "\/img\/device-iphone-qiktionary@2x.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/device-qiktionary-inline.png": {
-		"ft": 32768,
-		"iS": 157205,
-		"oA": 0,
-		"oAP": "\/img\/device-qiktionary-inline.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1497,28 +1438,7 @@
 		"oAP": "\/img\/hero-disney.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/hero-disney.png": {
-		"ft": 32768,
-		"iS": 595288,
-		"oA": 0,
-		"oAP": "\/img\/hero-disney.png",
-		"oF": 0,
-		"oIPL": 1,
 		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/hero-football-survivor.jpg": {
-		"ft": 16384,
-		"iS": 2452368,
-		"oA": 0,
-		"oAP": "\/img\/hero-football-survivor.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
 		"q": 100
 		},
 	"\/img\/hero-footballsurvivor.jpg": {
@@ -1531,48 +1451,14 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/img\/hero-footballsurvivor.png": {
-		"ft": 32768,
-		"iS": 601596,
+	"\/img\/hero-qiktionary.jpg": {
+		"ft": 16384,
+		"iS": 1531828,
 		"oA": 0,
-		"oAP": "\/img\/hero-footballsurvivor.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/hero-poster.png": {
-		"ft": 32768,
-		"iS": 4839,
-		"oA": 0,
-		"oAP": "\/img\/hero-poster.png",
+		"oAP": "\/img\/hero-qiktionary.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/hero-qiktionary-large.png": {
-		"ft": 32768,
-		"iS": 3032082,
-		"oA": 0,
-		"oAP": "\/img\/hero-qiktionary-large.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/hero-qiktionary.png": {
-		"ft": 32768,
-		"iS": 320174,
-		"oA": 0,
-		"oAP": "\/img\/hero-qiktionary.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
 		"q": 100
 		},
 	"\/img\/icon-arrow.svg": {
@@ -1580,6 +1466,16 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/img\/icon-arrow.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/img\/icon-bird.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/icon-bird.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
@@ -1647,12 +1543,12 @@
 		},
 	"\/img\/jamie-redknapp.png": {
 		"ft": 32768,
-		"iS": 611025,
+		"iS": 604786,
 		"oA": 0,
 		"oAP": "\/img\/jamie-redknapp.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1665,17 +1561,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/img\/logo-bafta.png": {
-		"ft": 32768,
-		"iS": 3671,
-		"oA": 0,
-		"oAP": "\/img\/logo-bafta.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"\/img\/logo-bafta.svg": {
 		"ft": 2097152,
@@ -1706,17 +1591,6 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
-		},
-	"\/img\/logo-codeschool.png": {
-		"ft": 32768,
-		"iS": 2947,
-		"oA": 0,
-		"oAP": "\/img\/logo-codeschool.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
 		},
 	"\/img\/logo-codeschool.svg": {
 		"ft": 2097152,
@@ -1788,6 +1662,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/logo-nbc.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/img\/logo-nbc.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/img\/logo-nike.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -1850,7 +1734,7 @@
 		},
 	"\/img\/logo-workingtitle.png": {
 		"ft": 32768,
-		"iS": 27922,
+		"iS": 5892,
 		"oA": 0,
 		"oAP": "\/img\/logo-workingtitle.png",
 		"oF": 0,
@@ -1869,48 +1753,44 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/img\/team-dan.png": {
-		"ft": 32768,
-		"iS": 876742,
+	"\/img\/team-dan.jpg": {
+		"ft": 16384,
+		"iS": 87721,
 		"oA": 0,
-		"oAP": "\/img\/team-dan.png",
-		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/team-eric.png": {
-		"ft": 32768,
-		"iS": 66672,
-		"oA": 0,
-		"oAP": "\/img\/team-eric.png",
+		"oAP": "\/img\/team-dan.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
-	"\/img\/team-james.png": {
-		"ft": 32768,
-		"iS": 66974,
+	"\/img\/team-eric.jpg": {
+		"ft": 16384,
+		"iS": 57096,
 		"oA": 0,
-		"oAP": "\/img\/team-james.png",
+		"oAP": "\/img\/team-eric.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
-	"\/img\/team-matt.png": {
-		"ft": 32768,
-		"iS": 98611,
+	"\/img\/team-james.jpg": {
+		"ft": 16384,
+		"iS": 65473,
 		"oA": 0,
-		"oAP": "\/img\/team-matt.png",
+		"oAP": "\/img\/team-james.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"oT": 1,
+		"q": 100
+		},
+	"\/img\/team-matt.jpg": {
+		"ft": 16384,
+		"iS": 67639,
+		"oA": 0,
+		"oAP": "\/img\/team-matt.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/includes\/_arrow.kit": {

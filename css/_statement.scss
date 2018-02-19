@@ -67,7 +67,7 @@
     &.qiktionary {
       right: 0;
       bottom: -200px;
-      width: 60vw;
+      width: 70vw;
       @include desktop {
         bottom: -220px;
       }
@@ -95,8 +95,4 @@
       }
     }
   }
-}
-
-.overflow-hidden {
-  overflow: hidden;
 }

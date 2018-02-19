@@ -17,6 +17,9 @@
 
 .contact-message {
   height: 80vh;
+  @include super-narrow {
+    height: 90vh;
+  }
 }
 
 .address {

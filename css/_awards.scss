@@ -5,6 +5,7 @@
     padding-top: 50px;
     padding-bottom: 50px;
   }
+
   ul {
     display: flex;
     flex-flow: row wrap;
@@ -26,12 +27,18 @@
         justify-content: flex-start;
         padding: 16px 16px 16px 24px;
       }
+      @include super-narrow {
+        padding: 16px 16px 16px 18px;
+      }
       h3 {
         color: $brand-pink;
         font-family: $title-font;
         font-size: 5rem;
         @include narrow {
           font-size: 4rem;
+        }
+        @include super-narrow {
+          font-size: 3.4rem;
         }
       }
       .icon-stat {

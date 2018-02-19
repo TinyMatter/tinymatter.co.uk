@@ -57,7 +57,8 @@
       position: relative;
       min-height: 130%;
     }
-    @include narrow {
+    @include mobile {
+      min-height: 120%;
       position: relative;
     }
   }
