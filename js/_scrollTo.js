@@ -129,9 +129,12 @@ function scrollIt(destination, duration = 200, easing = "easeInOutQuad", callbac
   scroll();
 }
 
-// Scroll to section 1
-document.querySelector(".scrollBtn").addEventListener("click", () => {
-  scrollIt(document.querySelector(".scrollSection"), 300, "easeOutQuad", () =>
-    console.log(`Just finished scrolling to ${window.pageYOffset}px`)
-  );
-});
+(function() {
+  // Scroll to section 1
+  document.querySelector(".scroll-down").addEventListener("click", e => {
+    e.preventDefault();
+    scrollIt(document.getElementById("target"), 500, "easeOutQuad", () =>
+      console.log(`Just finished scrolling to ${window.pageYOffset}px`)
+    );
+  });
+})();

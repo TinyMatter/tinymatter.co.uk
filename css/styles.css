@@ -24,7 +24,7 @@ body {
 
 h1 {
   font-size: 6rem;
-  font-weight: 800;
+  font-weight: 700;
   margin: 0; }
   @media (max-width: 768px) {
     h1 {
@@ -288,12 +288,13 @@ h6 {
         position: relative; } }
   .hero .scroll-down {
     position: absolute;
-    bottom: 0;
-    left: 0;
+    bottom: 50px;
+    left: 50px;
     height: 60px; }
     @media (max-width: 425px) {
       .hero .scroll-down {
-        bottom: 50px; } }
+        bottom: 100px;
+        left: 20px; } }
     @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
       .hero .scroll-down {
         bottom: 50px; } }
@@ -393,7 +394,8 @@ nav {
       nav.scroll {
         background: #2f3b40; } }
   nav a {
-    border-bottom: none; }
+    border-bottom: none;
+    font-weight: 400; }
     @media (max-width: 768px) {
       nav a {
         font-size: 17px;
@@ -1206,7 +1208,7 @@ nav {
           width: 38vw; } }
       @media (max-width: 768px) {
         .project-statement .project-image.jamie-redknapp {
-          width: 60vw; } }
+          width: 50vw; } }
     .project-statement .project-image.qiktionary {
       right: 0;
       bottom: -200px;
@@ -1271,7 +1273,7 @@ nav {
           padding-right: 0;
           margin-bottom: 50px; } }
       .project-results .container .about p {
-        font-size: 2.2rem;
+        font-size: 1.9rem;
         line-height: 1.5; }
         @media (max-width: 768px) {
           .project-results .container .about p {
