@@ -1074,6 +1074,292 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/favicon\/android-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 8406,
+		"oA": 0,
+		"oAP": "\/favicon\/android-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/android-icon-192x192.png": {
+		"ft": 32768,
+		"iS": 9647,
+		"oA": 0,
+		"oAP": "\/favicon\/android-icon-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/android-icon-36x36.png": {
+		"ft": 32768,
+		"iS": 1950,
+		"oA": 0,
+		"oAP": "\/favicon\/android-icon-36x36.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/android-icon-48x48.png": {
+		"ft": 32768,
+		"iS": 2428,
+		"oA": 0,
+		"oAP": "\/favicon\/android-icon-48x48.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/android-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 4320,
+		"oA": 0,
+		"oAP": "\/favicon\/android-icon-72x72.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/android-icon-96x96.png": {
+		"ft": 32768,
+		"iS": 5650,
+		"oA": 0,
+		"oAP": "\/favicon\/android-icon-96x96.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/apple-icon-114x114.png": {
+		"ft": 32768,
+		"iS": 6597,
+		"oA": 0,
+		"oAP": "\/favicon\/apple-icon-114x114.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/apple-icon-120x120.png": {
+		"ft": 32768,
+		"iS": 6877,
+		"oA": 0,
+		"oAP": "\/favicon\/apple-icon-120x120.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/apple-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 8406,
+		"oA": 0,
+		"oAP": "\/favicon\/apple-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/apple-icon-152x152.png": {
+		"ft": 32768,
+		"iS": 9032,
+		"oA": 0,
+		"oAP": "\/favicon\/apple-icon-152x152.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/apple-icon-180x180.png": {
+		"ft": 32768,
+		"iS": 10992,
+		"oA": 0,
+		"oAP": "\/favicon\/apple-icon-180x180.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/apple-icon-57x57.png": {
+		"ft": 32768,
+		"iS": 3553,
+		"oA": 0,
+		"oAP": "\/favicon\/apple-icon-57x57.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/apple-icon-60x60.png": {
+		"ft": 32768,
+		"iS": 3635,
+		"oA": 0,
+		"oAP": "\/favicon\/apple-icon-60x60.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/apple-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 4320,
+		"oA": 0,
+		"oAP": "\/favicon\/apple-icon-72x72.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/apple-icon-76x76.png": {
+		"ft": 32768,
+		"iS": 4490,
+		"oA": 0,
+		"oAP": "\/favicon\/apple-icon-76x76.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/apple-icon-precomposed.png": {
+		"ft": 32768,
+		"iS": 10223,
+		"oA": 0,
+		"oAP": "\/favicon\/apple-icon-precomposed.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/apple-icon.png": {
+		"ft": 32768,
+		"iS": 10223,
+		"oA": 0,
+		"oAP": "\/favicon\/apple-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/favicon\/browserconfig.xml",
+		"oF": 0
+		},
+	"\/favicon\/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 1431,
+		"oA": 0,
+		"oAP": "\/favicon\/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 2477,
+		"oA": 0,
+		"oAP": "\/favicon\/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/favicon-96x96.png": {
+		"ft": 32768,
+		"iS": 6732,
+		"oA": 0,
+		"oAP": "\/favicon\/favicon-96x96.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/favicon\/favicon.ico",
+		"oF": 0
+		},
+	"\/favicon\/manifest.json": {
+		"ft": 524288,
+		"oA": 1,
+		"oAP": "\/favicon\/manifest-min.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/favicon\/ms-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 8406,
+		"oA": 0,
+		"oAP": "\/favicon\/ms-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/ms-icon-150x150.png": {
+		"ft": 32768,
+		"iS": 8801,
+		"oA": 0,
+		"oAP": "\/favicon\/ms-icon-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/ms-icon-310x310.png": {
+		"ft": 32768,
+		"iS": 24059,
+		"oA": 0,
+		"oAP": "\/favicon\/ms-icon-310x310.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/favicon\/ms-icon-70x70.png": {
+		"ft": 32768,
+		"iS": 4190,
+		"oA": 0,
+		"oAP": "\/favicon\/ms-icon-70x70.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/img\/background-team.jpg": {
 		"ft": 16384,
 		"iS": 843645,
@@ -1163,6 +1449,16 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/img\/hero-poster.jpg": {
+		"ft": 16384,
+		"iS": 221759,
+		"oA": 0,
+		"oAP": "\/img\/hero-poster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/img\/hero-qiktionary.jpg": {
@@ -1469,7 +1765,7 @@
 		},
 	"\/img\/team-dan.jpg": {
 		"ft": 16384,
-		"iS": 87721,
+		"iS": 8109,
 		"oA": 0,
 		"oAP": "\/img\/team-dan.jpg",
 		"oF": 0,
@@ -1484,7 +1780,7 @@
 		"oAP": "\/img\/team-eric.jpg",
 		"oF": 0,
 		"oIPL": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/img\/team-james.jpg": {
@@ -1499,7 +1795,7 @@
 		},
 	"\/img\/team-matt.jpg": {
 		"ft": 16384,
-		"iS": 67639,
+		"iS": 10576,
 		"oA": 0,
 		"oAP": "\/img\/team-matt.jpg",
 		"oF": 0,
@@ -1709,6 +2005,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/video\/hero-showcase.mp4",
+		"oF": 0
+		},
+	"\/video\/hero-showcase.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/video\/hero-showcase.webm",
 		"oF": 0
 		}
 	},
