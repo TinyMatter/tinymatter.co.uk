@@ -1460,7 +1460,7 @@
 		},
 	"\/img\/hero-poster.jpg": {
 		"ft": 16384,
-		"iS": 221759,
+		"iS": 95870,
 		"oA": 0,
 		"oAP": "\/img\/hero-poster.jpg",
 		"oF": 0,
@@ -1995,20 +1995,6 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/sitemap.txt",
-		"oF": 0
-		},
-	"\/video\/hero-showcase.mp4": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/video\/hero-showcase.mp4",
-		"oF": 0
-		},
-	"\/video\/hero-showcase.webm": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/video\/hero-showcase.webm",
 		"oF": 0
 		}
 	},
