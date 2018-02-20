@@ -25,7 +25,6 @@
     height: auto;
     z-index: -1;
     transform: translateX(-50%) translateY(-50%);
-    background: url("/img/hero-placeholder.png") no-repeat;
     @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 1) {
       position: relative;
       min-height: 140%;
