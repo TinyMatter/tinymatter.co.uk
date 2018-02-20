@@ -1,17 +1,3 @@
-// Browser support:
-
-// Chrome >= 24
-// Firefox >= 23
-// IE >= 10
-// Opera >= 15
-// Safari >= 8 (on previous versions it breaks on 'now' in window.performance)
-// Android 4.4
-// Firefox >= 23
-// IE Mobile >= 10
-// Opera Mobile >= 15
-// Safari iOS >= 9
-// Chrome for Android >= 35
-
 /**
  *
  * @param {(number|HTMLElement)} destination - Destination to scroll to (DOM element or number)
@@ -131,10 +117,13 @@ function scrollIt(destination, duration = 200, easing = "easeInOutQuad", callbac
 
 (function() {
   // Scroll to section 1
-  document.querySelector(".scroll-down").addEventListener("click", e => {
-    e.preventDefault();
-    scrollIt(document.getElementById("target"), 500, "easeOutQuad", () =>
-      console.log(`Just finished scrolling to ${window.pageYOffset}px`)
-    );
-  });
+  var scrollDown = document.querySelector(".scroll-down");
+  if (scrollDown != null) {
+    scrollDown.addEventListener("click", e => {
+      e.preventDefault();
+      scrollIt(document.getElementById("target"), 500, "easeOutQuad", () =>
+        console.log(`Just finished scrolling to ${window.pageYOffset}px`)
+      );
+    });
+  }
 })();
