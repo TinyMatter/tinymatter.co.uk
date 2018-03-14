@@ -7,7 +7,7 @@
 		"uuidString": "5CE90E33-6BAC-4FF6-978B-8AECD7FDDB26"
 		}
 	],
-"creatorBuild": "26268",
+"creatorBuild": "26330",
 "files": {
 	"\/about\/index.html": {
 		"cB": 0,
@@ -1995,6 +1995,20 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/sitemap.txt",
+		"oF": 0
+		},
+	"\/video\/hero-showcase.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/video\/hero-showcase.mp4",
+		"oF": 0
+		},
+	"\/video\/hero-showcase.webm": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/video\/hero-showcase.webm",
 		"oF": 0
 		}
 	},
