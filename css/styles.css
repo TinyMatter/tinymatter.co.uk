@@ -53,18 +53,23 @@ h2 {
 h3 {
   margin: 0; }
 
+h4 {
+  font-size: 2em;
+  margin-bottom: 0.7em; }
+
 p {
   font-size: 1.6rem;
-  margin: 0;
+  margin: 0 0 1em;
   line-height: 1.4;
   letter-spacing: 0.01rem; }
   p.big-p {
     font-size: 2rem; }
   p.bold {
     font-weight: 700; }
+  p:last-of-type {
+    margin: 0; }
 
 a {
-  font-size: 1.6rem;
   color: white;
   border-bottom: 2px solid #f53170;
   cursor: pointer;
@@ -138,6 +143,11 @@ ul {
   margin-bottom: 0; }
   ul li {
     font-size: 1.6rem; }
+  ul.bullets {
+    list-style: disc; }
+    ul.bullets li {
+      margin-left: 1.7em;
+      margin-bottom: 0.4em; }
 
 h1,
 h2,

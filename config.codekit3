@@ -7,7 +7,7 @@
 		"uuidString": "5CE90E33-6BAC-4FF6-978B-8AECD7FDDB26"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/about\/index.html": {
 		"cB": 0,
@@ -1370,6 +1370,7 @@
 	"\/img\/background-team.jpg": {
 		"ft": 16384,
 		"iS": 843645,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/background-team.jpg",
 		"oF": 0,
@@ -1380,6 +1381,7 @@
 	"\/img\/background-work.jpg": {
 		"ft": 16384,
 		"iS": 1581734,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/background-work.jpg",
 		"oF": 0,
@@ -1390,6 +1392,7 @@
 	"\/img\/device-disney-inline.jpg": {
 		"ft": 16384,
 		"iS": 887413,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/device-disney-inline.jpg",
 		"oF": 0,
@@ -1400,6 +1403,7 @@
 	"\/img\/device-disney.jpg": {
 		"ft": 16384,
 		"iS": 230527,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/device-disney.jpg",
 		"oF": 0,
@@ -1410,6 +1414,7 @@
 	"\/img\/device-footballsurvivor-inline.jpg": {
 		"ft": 16384,
 		"iS": 744629,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/device-footballsurvivor-inline.jpg",
 		"oF": 0,
@@ -1420,6 +1425,7 @@
 	"\/img\/device-qiktionary-inline.jpg": {
 		"ft": 16384,
 		"iS": 333636,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/device-qiktionary-inline.jpg",
 		"oF": 0,
@@ -1441,6 +1447,7 @@
 	"\/img\/hero-disney.jpg": {
 		"ft": 16384,
 		"iS": 2692956,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/hero-disney.jpg",
 		"oF": 0,
@@ -1451,6 +1458,7 @@
 	"\/img\/hero-footballsurvivor.jpg": {
 		"ft": 16384,
 		"iS": 1504883,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/hero-footballsurvivor.jpg",
 		"oF": 0,
@@ -1461,6 +1469,7 @@
 	"\/img\/hero-poster.jpg": {
 		"ft": 16384,
 		"iS": 95870,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/hero-poster.jpg",
 		"oF": 0,
@@ -1471,6 +1480,7 @@
 	"\/img\/hero-qiktionary.jpg": {
 		"ft": 16384,
 		"iS": 256098,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/hero-qiktionary.jpg",
 		"oF": 0,
@@ -1760,9 +1770,21 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/img\/team-dan.jpg": {
+		"ft": 16384,
+		"iS": 27361,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/team-dan.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/team-eric.jpg": {
 		"ft": 16384,
 		"iS": 57096,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/team-eric.jpg",
 		"oF": 0,
@@ -1773,6 +1795,7 @@
 	"\/img\/team-james.jpg": {
 		"ft": 16384,
 		"iS": 65473,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/team-james.jpg",
 		"oF": 0,
@@ -1783,6 +1806,7 @@
 	"\/img\/team-matt.jpg": {
 		"ft": 16384,
 		"iS": 10576,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/team-matt.jpg",
 		"oF": 0,
@@ -1902,6 +1926,13 @@
 		"oAP": "\/index.html",
 		"oF": 0
 		},
+	"\/jetset-aces\/privacy-policy\/index.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"oA": 0,
+		"oAP": "\/jetset-aces\/privacy-policy\/index.html",
+		"oF": 0
+		},
 	"\/js\/_nav.js": {
 		"ft": 64,
 		"ma": 0,
@@ -2010,7 +2041,8 @@
 	"creationDate": 539626676,
 	"displayValue": "Tiny Matter",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "brackets_gray"
+	"iconImageName": "brackets_gray",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3813,6 +3845,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
