@@ -17,6 +17,7 @@ body {
   margin: 0;
   position: relative;
   z-index: -2;
+
   &.in-transition {
     transition: transform 900ms ease-in-out;
   }
@@ -56,37 +57,51 @@ h3 {
   margin: 0;
 }
 
+h4 {
+  font-size: 2em;
+  margin-bottom: 0.7em;
+}
+
 p {
   font-size: 1.6rem;
-  margin: 0;
+  margin: 0 0 1em;
   line-height: 1.4;
   letter-spacing: 0.01rem;
+
   &.big-p {
     font-size: 2rem;
   }
+
   &.bold {
     font-weight: 700;
+  }
+
+  &:last-of-type {
+    margin: 0;
   }
 }
 
 a {
-  font-size: 1.6rem;
   color: white;
   border-bottom: 2px solid $brand-pink;
   cursor: pointer;
   text-decoration: none;
   transition: all 150ms ease-in-out;
+
   &:hover {
     text-decoration: none;
     color: $brand-pink;
   }
+
   &.dark {
     color: $brand-blue;
     border-bottom-color: $brand-pink;
+
     &:hover {
       color: $brand-pink;
     }
   }
+
   &.big-p {
     font-size: 2rem;
   }
@@ -98,10 +113,12 @@ section {
   @include narrow {
     padding: 20px;
   }
+
   &.dark {
     background: $brand-blue;
     color: white;
   }
+
   &.short {
     padding: 100px 250px 50px 50px;
     @include mobile {
@@ -142,8 +159,18 @@ ul {
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
+
   li {
     font-size: 1.6rem;
+  }
+
+  &.bullets {
+    list-style: disc;
+
+    li {
+      margin-left: 1.7em;
+      margin-bottom: 0.4em;
+    }
   }
 }
 
@@ -163,6 +190,7 @@ h6 {
     top: 5px;
     transform: rotate(-90deg) translateY(20px) scale(1);
     transition: all 150ms ease-in-out;
+
     path {
       transition: fill 150ms ease-in-out;
       fill: rgba($brand-pink, 0);
@@ -179,41 +207,52 @@ h6 {
   border-bottom: none;
   padding: 14px 8px;
   transition: all 150ms ease-in-out;
+
   .arrow {
     transition: all 150ms ease-in-out;
     @include narrow {
       width: 25px;
     }
+
     path {
       transition: all 150ms ease-in-out;
     }
   }
+
   &.light {
     color: white;
   }
+
   &.left .arrow {
     transform: rotate(90deg);
     margin-right: 6px;
   }
+
   &.right .arrow {
     transform: rotate(-90deg);
     margin-left: 6px;
   }
+
   &.up .arrow {
     transform: rotate(180deg);
   }
+
   &:hover {
     box-shadow: 0 0 10 10 rgba(0, 0, 0, 0.5);
     transform: scale(1.05);
+
     .arrow {
       transform: scale(1.2);
     }
+
     &.left .arrow {
       transform: rotate(90deg) translateY(4px);
     }
+
     &.right .arrow {
       transform: rotate(-90deg) translateY(4px);
     }
+
     &.up .arrow {
       transform: rotate(180deg);
     }
